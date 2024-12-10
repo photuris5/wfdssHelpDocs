@@ -56,7 +56,7 @@
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
                     <div data-sticky-container="" class="title-bar-container">
-                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                        <nav class="title-bar tab-bar sticky" aria-label="title tab bar" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <div class="central-account-wrapper">
@@ -130,11 +130,12 @@
                                     </div>
                                     <div role="main" id="mc-main-content">
                                         <h1>New Analysis</h1>
-                                        <p>This tab is where you create/request an analysis, run an analysis, and review or modify information on analysis results.
-        </p>
+                                        <p><span>This tab is where you create/request an analysis, run an analysis, and review or modify information on analysis results</span>
+                                        </p>
                                         <h2>Create an Analysis</h2>
                                         <div class="note">
-                                            <p data-mc-autonum="&lt;b&gt;NOTE: &lt;/b&gt;"><span class="autonumber"><span class="setoff"><b>NOTE: </b></span></span>Creating an Analysis is only available to Fire Behavior Analysts, Geographic Area Editors, and Support Roles.</p>
+                                            <p data-mc-autonum="&lt;b&gt;NOTE: &lt;/b&gt;"><span class="autonumber"><span class="setoff"><b>NOTE: </b></span></span>Creating an Analysis is only available to Fire Behavior Analysts, Geographic Area Editors, and Support Roles.
+        </p>
                                         </div>
                                         <dl>
                                             <dt>
@@ -146,7 +147,7 @@
                                                         <p>Select the Analysis stepper and the New Analysis tab</p>
                                                         <ol>
                                                             <li value="1">
-                                                                <p>Choose your Analysis Type (<a href="FARSITE.htm" class="MCTopic MCTopicPopupHotSpot a aPopup" data-mc-width="auto" data-mc-height="auto">FARSITE</a>, <a href="FlamMap.htm" class="MCTopic MCTopicPopupHotSpot a aPopup" data-mc-width="auto" data-mc-height="auto">FlamMap</a>, <a href="FSPro.htm" class="MCTopic MCTopicPopupHotSpot a aPopup" data-mc-width="auto" data-mc-height="auto">FSPro</a>, <a href="MTT.htm" class="MCTopic MCTopicPopupHotSpot a aPopup" data-mc-width="auto" data-mc-height="auto">MTT</a>), select <b>Create Analysis</b>.</p>
+                                                                <p>Choose your Analysis Type (<a target="_blank" href="FARSITE.htm">FARSITE</a>, <a target="_blank" href="FlamMap.htm">FlamMap</a>, <a target="_blank" href="FSPro.htm">FSPro</a>, <a target="_blank" href="MTT.htm">MTT</a>), select Create Analysis.</p>
                                                             </li>
                                                         </ol>
                                                     </li>
@@ -157,14 +158,16 @@
                                                         <p>Enter the Analysis Start Date.</p>
                                                     </li>
                                                     <li value="5">
-                                                        <p>Click <b>SAVE ANALYSIS</b> to save the name and start date  or click <b>CLOSE </b>to return to the New Analysis tab without saving any information.</p>
+                                                        <p>Click <b>SAVE ANALYSIS</b> to save the name and start date  or click <b>CLOSE </b>to return to the .New Analysis tab without saving any information.</p>
                                                     </li>
                                                 </ol>
                                             </dt>
                                         </dl>
                                         <h2>Requesting an Analysis</h2>
-                                        <p><span>Note:&#160;Requesting an Analysis is available to all non- Fire Behavior Analysts, non-Geographic Area Editors, and non-Support Roles</span>
-                                        </p>
+                                        <div class="note">
+                                            <p data-mc-autonum="&lt;b&gt;NOTE: &lt;/b&gt;"><span class="autonumber"><span class="setoff"><b>NOTE: </b></span></span>Requesting an Analysis is available to all non- Fire Behavior Analysts, non-Geographic Area Editors, and non-Support Roles
+        </p>
+                                        </div>
                                         <ol>
                                             <li value="1">
                                                 <p>Navigate and open to your incident.</p>
@@ -173,7 +176,7 @@
                                                 <p>Select the Analysis stepper and the New Analysis tab</p>
                                             </li>
                                             <li value="3">
-                                                <p>Choose your Analysis Type (Farsite, FlamMap, FSPro, or MTT), select <b>Request Analysis</b>.</p>
+                                                <p>Choose your Analysis Type &lt;Add links (Farsite, FlmaMap, FSPro, or MTT)&gt;&gt;, select Request Analysis.</p>
                                             </li>
                                             <li value="4">
                                                 <p>Enter the Analysis Name</p>
@@ -182,23 +185,22 @@
                                                 <p>Enter the Analysis Start Date.</p>
                                             </li>
                                             <li value="6">
-                                                <p>Enter a note explaining the request to the Analyst that accepts it.</p>
+                                                <p>Enter a note explaining the request tothe Analyst that accepts it.</p>
                                             </li>
                                             <li value="7">
                                                 <p>Click <b>.</b></p>
                                             </li>
                                             <li value="8">
-                                                <p>Click <b>ACCEPT ANALYSIS</b> to begin working the analysis.</p>
+                                                <p>Click ACCEPT ANALYSIS to begin working the analysis.</p>
                                             </li>
                                         </ol>
-                                        <h2>&#160;</h2>
                                         <h2>Enter Analysis Information</h2>
                                         <ol>
                                             <li value="1">
-                                                <p>Expand the General accordion. Review and/or modify the Analysis name, Analysis Start Date, Number of Fires, Number of Days, Crown Fire Method (choose Finney (1998) or Scott/Reinhardt (2001))</p>
+                                                <p>Expand the General accordion. Review and/or modify the Analysis name, Analysis Start Date, Number of Fires, Number of Days, Crown Fire Method (accept Finney (1998) or select Scott/Reinhardt (2001))</p>
                                             </li>
                                             <li value="2">
-                                                <p>Enter the Ignition File name. When you are missing an Ignition, create one using the Drawing Tool on the map and name the Ignition File.</p>
+                                                <p>Enter the Ignition File name. When you are missing an Ignition, create one using the Drawing Tool on the map and name the ignition File.</p>
                                             </li>
                                             <li value="3">
                                                 <p>Select the Barrier File. When you are missing a Barrier File, create one using the Drawing Tool on the map and name the Barrier File. Ensure the Barrier File does not overlap the Ignition File.</p>
@@ -228,10 +230,9 @@
                                                 <p>Select the note you want to edit. Click <b>SAVE </b>when finished. </p>
                                             </li>
                                             <li value="12">
-                                                <p>Click <b>IMPORT NOTES</b> to import them to the decision you are working on, <b>DELETE ALL</b> notes, or <b>CLOSE </b>to return to the <b>NEW ANALYSIS</b> tab without saving any information.</p>
+                                                <p>Click <b>IMPORT NOTES</b> to import them to the decision you are working on, <b>DELETE ALL</b> notes, or <b>CLOSE </b>to return to the NEW ANALYSIS tab without saving any information.</p>
                                             </li>
                                         </ol>
-                                        <h2>&#160;</h2>
                                         <h2>Enter Landscape Information</h2>
                                         <ol>
                                             <li value="1">
@@ -277,7 +278,6 @@
                                                 <p>Click <b>CLOSE</b> to return to the New Analysis tab without saving any information<b> </b>as appropriate.</p>
                                             </li>
                                         </ol>
-                                        <p>&#160;</p>
                                         <h2>Enter Weather Information</h2>
                                         <ol>
                                             <li value="1">
@@ -323,7 +323,6 @@
                                                 <p>Click the appropriate checkbox(es) to select the row. You can click <b>ADD ROW</b> to add a row or <b>DELETE SELECTED</b> to delete a row.</p>
                                             </li>
                                         </ol>
-                                        <p>&#160;</p>
                                         <h2>Enter Winds Information</h2>
                                         <ol>
                                             <li value="1">
@@ -381,7 +380,6 @@
                                                 <p>Click <b>SAVE </b>to save the information or click <b>CLOSE</b> to return to the New Analysis tab without saving any information.</p>
                                             </li>
                                         </ol>
-                                        <p>&#160;</p>
                                         <h2>Run the Analysis and View Results</h2>
                                         <ol>
                                             <li value="1">

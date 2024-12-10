@@ -56,7 +56,7 @@
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
                     <div data-sticky-container="" class="title-bar-container">
-                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                        <nav class="title-bar tab-bar sticky" aria-label="title tab bar" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <div class="central-account-wrapper">
@@ -130,7 +130,18 @@
                                     </div>
                                     <div role="main" id="mc-main-content">
                                         <h1>Incident Privileges</h1>
-                                        <p>Delete this text and replace it with your own content.</p>
+                                        <p>&#160;</p>
+                                        <p>In WFDSS, users have <b>application roles</b> (Incident Editor, Fire Behavior Analyst, Geographic Area Editor, Support) and <b>incident-specific privileges</b> (Collaborator, Point of Contact (POC), Approver).   Incident privileges are specific to each incident and determine which types of tasks a user can perform in support of the incident documentation. </p>
+                                        <p>Collaborators on an incident have the ability to manage the Collaborators list, edit decision content, create or upload incident and analysis shapes and request analyses.&#160;Collaborators may also have additional incident privileges of POC or Approver.</p>
+                                        <p>Any user with the application role of Editor (or higher) has the ability to start an Incident Decision.  The user that starts the Incident Decision becomes the<b> Point of Contact (POC)</b> by default. Each Incident Decision must have one POC, but any Collaborator on the Incident Decision can assign or claim that role. The POC initially manages the Collaborator list by adding users as Collaborators and Approvers.</p>
+                                        <p>Only users that have self-certified Approver qualifications on their user profile can be assigned as <b>Approver</b>. Multiple Approvers are permitted, where appropriate.&#160;&#160;Approvers have additional Incident Privileges, including reviewing the decision, completing the rationale, viewing and submitting records to the Approver Log, and setting the Periodic Assessment review period.  </p>
+                                        <p>Users with the application role of Analyst or higher are <b>Implicit Collaborators</b> and can help manage the Collaborators list or edit decision content without being manually added.  </p>
+                                        <p>Glossary</p>
+                                        <p>Point of Contact (POC) - The Point of Contact (POC) is the lead Collaborator.&#160;Users requesting incident privileges should contact the POC to be added as a Collaborator.</p>
+                                        <p>Collaborators -&#160; Collaborator is the incident-specific privilege that allows users to view and edit decision content. Collaborators may also have additional incident privileges of POC or Approver.</p>
+                                        <p>Approver -&#160;Approver is an Incident Privilege that can be assigned to users with any application role (Editor or higher) that certify in the User Profile that they have completed the proper training per agency policy to act as an Agency Administrator. In WFDSS, Approvers are responsible for reviewing the Decision, writing the Rationale, and approving a Decision prior to publication.</p>
+                                        <p>Implicit Collaborators -&#160;Implicit Collaborators do not need to manually added to the Collaborator List to support incident documentation and can help manage the Collaborator List.   Users with application roles of Fire Behavior Analyst, Geographic Area Editor and Support are implicit Collaborators on all incidents.</p>
+                                        <p>&#160;</p>
                                     </div>
                                     <p style="text-align: left;" data-mc-conditions="General.Online"><a href="https://bugcrowd.com/owf-vdp" target="_blank">Vulnerability Disclosure Policy <i class="fa fa-external-link" aria-hidden="true"></i></a>
                                     </p>

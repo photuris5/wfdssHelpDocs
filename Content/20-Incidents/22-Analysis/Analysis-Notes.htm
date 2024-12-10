@@ -56,7 +56,7 @@
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
                     <div data-sticky-container="" class="title-bar-container">
-                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                        <nav class="title-bar tab-bar sticky" aria-label="title tab bar" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <div class="central-account-wrapper">
@@ -130,7 +130,39 @@
                                     </div>
                                     <div role="main" id="mc-main-content">
                                         <h1>Analysis Notes</h1>
-                                        <p>Delete this text and replace it with your own content.</p>
+                                        <p>Before completing information for an analysis, you should enter notes corresponding to each of the analysis tabs. Notes are located at the end of each tab and allow you to explain your assumptions or why you have selected values entered in the text boxes. This provides context and assists decisions makers when reviewing a decision for publication.</p>
+                                        <p>These are the types of analysis notes available:</p>
+                                        <ul>
+                                            <li>
+                                                <p>General Information: You can leave this blank or add information that you are using to develop the analysis that do not belong in other note categories.</p>
+                                            </li>
+                                            <li>
+                                                <p>Landscape:  Expand on or modify landscape conditions such as attribute, operator, or value.</p>
+                                            </li>
+                                            <li>
+                                                <p>Weather: Expand on values entered in the weather tab. This can include ERC Classes, ERC Stream, Station Details, and Wind Matrix.</p>
+                                            </li>
+                                            <li>
+                                                <p>Results: After you verify your analysis inputs are complete and you submit the analysis to run, you can enter Results notes. These notes allow you to add further information to the analysis and its outputs.</p>
+                                            </li>
+                                            <li>
+                                                <p>Status:  Status notes allow you to explain the analysis length and expiration date.</p>
+                                            </li>
+                                        </ul>
+                                        <p><span>As a user I can edit a note by clicking on the existing note</span>
+                                        </p>
+                                        <p><span>As dev change the delete button to cancel</span>
+                                        </p>
+                                        <p><span>As a user I can delete an individual existing note by clicking the trashcan icon to the left of the note</span>
+                                        </p>
+                                        <p><span>As dev add ellipses in the existing notes table</span>
+                                        </p>
+                                        <p><span>As a user I can export analysis notes by clicking the CSV button</span>
+                                        </p>
+                                        <p><span>As a user (Analyst) I can add an analysis note while I'm on any tab within the analysis workflow.</span>
+                                        </p>
+                                        <p><span>As a user I can see the notes on each tab in an analysis</span>
+                                        </p>
                                     </div>
                                     <p style="text-align: left;" data-mc-conditions="General.Online"><a href="https://bugcrowd.com/owf-vdp" target="_blank">Vulnerability Disclosure Policy <i class="fa fa-external-link" aria-hidden="true"></i></a>
                                     </p>

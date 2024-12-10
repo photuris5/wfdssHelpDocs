@@ -56,7 +56,7 @@
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
                     <div data-sticky-container="" class="title-bar-container">
-                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                        <nav class="title-bar tab-bar sticky" aria-label="title tab bar" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <div class="central-account-wrapper">
@@ -130,24 +130,24 @@
                                     </div>
                                     <div role="main" id="mc-main-content">
                                         <h1>User Roles</h1>
-                                        <p>Roles in WFDSS NextGendiffer from those  Classic WFDSS. NextGen users hold one role and roles have hierarchical permissions so every role builds upon the previous role. To change your role, contact your GA Editor.</p>
-                                        <p>This is how the roles build. The default role assigned to users with initial system access is the Viewer role. If appropriate, your GA Editor can elevate your role to Incident Editor or Fire Behavior Analyst as needed.</p>
+                                        <p>Roles in WFDSS NextGen differ from those Classic WFDSS. NextGen users hold one user role and since user roles have hierarchical permissions every role builds upon the previous role. To change your role, contact the appropriate <a href="../../../../../../../Content/00-General/Find-GAE.htm">Geographic Area Editor (GAE)</a>.</p>
+                                        <p>&#160;</p>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />Viewer</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>When you select WFDSS NextGen in iNAP for the first time, you are granted a Viewer role when you have  a recognized email address. GA Editors will grant usersfurther role access. This role is analogous to the Anonymous role in WFDSS classic and can do the following:</p>
+                                                <p>The Viewer Role is assigned by default to users who apply for system access with one of the following pre-authorized government email domains: bia.gov, blm.gov, nps.gov, usda.gov or firenet.gov. GA Editors can grant users further role access and users can find their GAE by using GAE Staff Report. This role is analogous to the Anonymous role in WFDSS Classic and can:</p>
                                                 <ul>
                                                     <li>
                                                         <p>Edit the user's own profile.</p>
                                                     </li>
                                                     <li>
-                                                        <p>View the GAE Staff report for the purposes of getting their roles elevated.</p>
+                                                        <p>View the GAE Staff report for the purposes of contacting the correct GAE for support in requesting elevated roles.</p>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />Incident Editor</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>This will be the most common role in WFDSS NextGen. It will combine Classic WFDSS roles of Viewer and Author. Permissions will be flattened in a way that some users will see an increase in system privileges putting a larger onus on users to respect and abide by regional and local protocols, and their neighbors’ protocols while giving users the maximum ability to manage incidents without multiple roles and complicated interactions. Editors can:</p>
+                                                <p>This will be the most common role in WFDSS NextGen. It will combine Classic WFDSS roles of Viewer and Author. Permissions will be flattened in a way that some users will see an increase in system privileges putting a larger onus on users to respect and abide by regional and local protocols, and their neighbors’ protocols. <span>U</span><span>sers&#160;</span><span>have&#160;</span><span>the maximum ability to manage incidents without multiple roles and complicated interactions.&#160;</span> Editors can:</p>
                                                 <ul>
                                                     <li>
                                                         <p>Browse for Incidents</p>
@@ -156,16 +156,19 @@
                                                         <p>View any published decisions and analyses that are statused as: Retain for reference, Calibration, Complete for Operational Use, or Complete for Strategic Use</p>
                                                     </li>
                                                     <li>
-                                                        <p>Initiate a record on any fire anywhere in the nation</p>
+                                                        <p>Initiate a decision on any incident anywhere in the nation</p>
                                                     </li>
                                                     <li>
-                                                        <p>Add collaborators to an incident for which they are an collaborator, including Analysts and Approvers</p>
+                                                        <p>Watch any incident without being a collaborator (no editing capabilities)</p>
                                                     </li>
                                                     <li>
-                                                        <p>Change themselves or any other collaborator to the lead collaborator</p>
+                                                        <p>Add collaborators to an incident for which they are a collaborator, including Approvers</p>
                                                     </li>
                                                     <li>
-                                                        <p>As a lead collaborator send a decision for approval.</p>
+                                                        <p>Change themselves or any other collaborator to the POC (Point of Contact)</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>As the POC send a decision for approval</p>
                                                     </li>
                                                     <li>
                                                         <p>View draft decision content on any incident they are a collaborator of</p>
@@ -175,7 +178,7 @@
                                         </div>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />Fire Behavior Analyst</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>The Analyst role in WFDSS NextGen is intended for those who need to be able to run fire behavior analysis (FlamMap, MTT, FARSITE, and FSPro) for decision support. Fire Behavior Analyst will be the next role upfrom Incident Editor in WFDSS NextGen, so because the roles in NextGen are additive this role will build upon the Editor role. In addition to the Incident Editor privileges, Analysts will be able to: </p>
+                                                <p>The Fire Behavior Analyst role in WFDSS NextGen is intended for those who need to be able to run fire behavior analysis (FlamMap, MTT, FARSITE, and FSPro) for decision support. Fire Behavior Analyst is the next role up from Incident Editor in WFDSS NextGen, and because the roles in NextGen are additive this role builds upon the Editor role. In addition to the Incident Editor privileges, Fire Behavior Analysts are able to:</p>
                                                 <ul>
                                                     <li>
                                                         <p>Collaborate on any incident without being added (implicit collaborator)</p>
@@ -204,91 +207,117 @@
                                         </div>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />Geographic Area Editor</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>The Geographic Area Editor (GAE) role in WFDSS NextGen builds on the Fire Behavior Analyst role and will include some expanded privileges so that assisting the field is easier for the GAE. The privileges associated with this role are primarily to facilitate the responsibilities the GAEs fulfill. It is important to note that system access and roles will no longer be managed within WFDSS NextGen since it will be integrating FAMAuth and iNAP for authentication and role control respectively, so password, account management and roles will all be controlled from within the iNAP user interface, so this role has privileges in 2 systems, iNAP and WFDSS NextGen. In addition to the WFDSS Classic GAE role the WFDSS Classic Helpdesk role will also be rolled into the WFDSS NextGen GAE role to facilitate the helpdesk assisting users with password resets and re-enabling accounts. The privileges for the GAE role are listed below with the application where those privileges are implemented:</p>
+                                                <p>The Geographic Area Editor (GAE) role in WFDSS NextGen builds on the Fire Behavior Analyst role  includes some expanded privileges so that assisting the field is easier for the GAE. The privileges associated with this role are primarily to facilitate the responsibilities the GAEs fulfill. It is important to note that system access and roles will no longer be managed within WFDSS NextGen since it will be integrating FAMAuth for authentication and role control respectively, so password, account management and roles will all be controlled from within the FAMAuth Admin user interface. So this role has privileges in 2 systems, FAMAuth Admin and WFDSS NextGen. The privileges for the GAE role are listed below with the application where those privileges are implemented:</p>
                                                 <ul>
                                                     <li>
-                                                        <p>Resetting user passwords - iNAP</p>
+                                                        <p>Resetting user passwords - FAMAuth Admin</p>
                                                     </li>
                                                 </ul>
                                                 <ul>
                                                     <li>
-                                                        <p>Can view user security question and answers - iNAP</p>
+                                                        <p>Can view user security question and answers - FAMAuth Admin</p>
                                                     </li>
                                                 </ul>
                                                 <ul>
                                                     <li>
-                                                        <p>Authorize Non-Federal users for system access - iNAP</p>
+                                                        <p>Authorize Non-Federal users for system access - FAMAuth Admin</p>
                                                     </li>
                                                 </ul>
                                                 <ul>
                                                     <li>
-                                                        <p>Assign and modify user roles equal to or less privileged than the WFDSS NextGen GAE role - iNAP</p>
+                                                        <p>Assign and modify user roles equal to or less privileged than the WFDSS NextGen GAE role - /FAMAuth Admin</p>
                                                     </li>
                                                 </ul>
                                                 <ul>
                                                     <li>
-                                                        <p>Re-enable user accounts nationally - iNAP</p>
+                                                        <p>Re-enable user accounts nationally - FAMAuth Admin</p>
                                                     </li>
                                                 </ul>
                                                 <ul>
                                                     <li>
-                                                        <p>Disable user accounts nationally - iNAP</p>
+                                                        <p>Disable user accounts nationally - FAMAuth Admin</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Populate the GAE Staff Report - WFDSS</p>
+                                                        <p>&#160;</p>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />Support</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>The Support role in WFDSS NextGen will be the most privileged role in WFDSS NextGen as well as in iNAP as it builds on the Geographic Area Editor Role. The new technologies and revised system architecture of WFDSS NextGen will mean, users with the Support role in NextGen will require much fewer abilities and tools at their disposal in NextGen than the Administrators and Support roles in WFDSS Classic did and that the Administrator role can be deprecated. WFDSS NextGen will use iNAP for user support related to roles and authentication, as a backup to the GAEs who will be the primary managers of user in their Geographic Area as they are now. The privileges for the support role are listed below with the application where those privileges are implemented:</p>
+                                                <p>The Support role in WFDSS NextGen will be the most privileged role in WFDSS NextGen as well as in FAMAuth Admin as it builds on the Geographic Area Editor Role. The new technologies and revised system architecture of WFDSS NextGen will mean users with the Support role in NextGen will require much fewer abilities and tools at their disposal in NextGen than the Administrators and Support roles in WFDSS Classic did and that the Administrator role can be deprecated. WFDSS NextGen will use FAMAuth Admin for user support related to roles and authentication as a backup to the GAEs who will be the primary managers of user in their Geographic Area as they are now. The privileges for the support role are listed below with the application where those privileges are implemented:</p>
                                                 <ul>
                                                     <li>
-                                                        <p>Modify other user's profile information - WFDSS NextGen</p>
+                                                        <p>Modify other user's WFDSS profile information - WFDSS NextGen</p>
                                                     </li>
                                                     <li>
-                                                        <p>Can view service transactions - WFDSS NextGen</p>
+                                                        <p>Can create incidents in the Production (PROD) environment - WFDSS NextGen</p>
                                                     </li>
                                                     <li>
-                                                        <p>Can view message queues - WFDSS NextGen</p>
+                                                        <p>Search for incidents using IRWIN ID - WFDSS NextGen</p>
                                                     </li>
                                                     <li>
-                                                        <p>Manually update the NPL and the GAPL - WFDSS NextGen</p>
+                                                        <p>Mimic user roles - WFDSS NextGen</p>
                                                     </li>
                                                     <li>
-                                                        <p>Can send broadcast messages - WFDSS NextGen</p>
+                                                        <p>Can view service transactions - WFDSS NextGen (future enhancement)</p>
                                                     </li>
                                                     <li>
-                                                        <p>Can send system emails - WFDSS NextGen</p>
+                                                        <p>Can view message queues - WFDSS NextGen (future enhancement)</p>
                                                     </li>
                                                     <li>
-                                                        <p>Can view user activity reports &amp; logs - WFDSS NextGen</p>
+                                                        <p>Manually update the NPL and the GAPL - WFDSS NextGen (future enhancement)</p>
                                                     </li>
                                                     <li>
-                                                        <p>Assign and modify user roles equal to or less privileged than the WFDSS NextGen GAE role - iNAP</p>
+                                                        <p>Can send broadcast messages - WFDSS NextGen (future enhancement)</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Can send system emails - WFDSS NextGen (future enhancement)</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Can view user activity reports &amp; logs - WFDSS NextGen (future enhancement)</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Assign and modify user roles equal to or less privileged than the WFDSS NextGen GAE role - /FAMAuth Admin</p>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <p>&#160;</p>
-                                        <p>&#160;</p>
                                         <h2>WFDSS Classic Roles Not Available in WFDSS NextGen</h2>
-                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" /><p>Dispatcher</p><p>??Why is this role no longer needed??</p></a></span>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />Dispatcher</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>WFDSS NextGen displays incident data from IRWIN only. Users no longer create incidents manually. Users search for the appropriate IRWIN incident so it is no longer necessary to create incidents in WFDSS and hence this role is no longer needed. </p>
+                                                <p>WFDSS NextGen displays incident data from IRWIN only. Users no longer create incidents manually. In the event of an IRWIN outage, users with the Support role will be able to create incidents and will coordinate with incident personnel and the appropriate dispatch center to ensure the proper data is associated.</p>
                                             </div>
                                         </div>
-                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" /><p>Author</p><p>This role has been consolidated into</p><p>&#160;</p><p>Data Manager</p></a></span>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />Author</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>This role is no longer needed in WFDSS NextGen as spatial fire planning functionality is now managed by the Spatial Fire Monitoring service.</p>
+                                                <p>This role is analogous to the Incident Editor role and no longer needed.</p>
                                             </div>
                                         </div>
-                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" /><p>&#160;</p><p>Super Analyst</p></a></span>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />Data Manager</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>This role is no longer needed in WFDSS NextGen as the Fire Behavior Analyst Role does not need any parsing of capability. </p>
+                                                <p>This role is no longer needed in WFDSS NextGen as spatial fire planning functionality is now managed by the Spatial Fire Planning service.</p>
                                             </div>
                                         </div>
-                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" /><p>&#160;</p><p>Help Desk</p><p>This role will be equivalent to a Geographic Area Editor in NextGen and so is no longer needed as a unique role. Help Desk personnel will require a GAE role because of its permissions in iNAP for password, role, and system access controls with iNAP</p><p>&#160;</p><p>National Editor</p><p>This role is no longer needed as the geographic constraints associated with the Geographic Area Editor role have been removed so GAEs are now equivalent to National Editors.</p><p>&#160;</p><p>Administrator</p></a></span>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />Super Analyst</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>Much of the abilities associated with this role has been combined with the Support Role..</p>
+                                                <p>This role is no longer needed in WFDSS NextGen as the Fire Behavior Analyst Role does not need any parsing of capability.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />Help Desk</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>Account management and application access will be controlled through FAMAuth Admin - Help Desk personnel will not require a specialized role in WFDSS NextGen.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />National Editor</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>This role is no longer needed as the geographic constraints associated with the Geographic Area Editor role have been removed so GAEs are now equivalent to National Editors.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />Administrator</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>The functionality associated with the Administrator role has been combined with the Support Role.</p>
                                             </div>
                                         </div>
                                     </div>

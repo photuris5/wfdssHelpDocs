@@ -440,7 +440,7 @@ a.glossaryTerm
 {
 	cursor: hand;
 	text-decoration: none;
-	color: #45494c;
+	color: #303335;
 	font-weight: bold;
 	border-bottom: none;
 	font-size: 16pt;
@@ -450,7 +450,7 @@ a.glossaryTerm
 {
 	cursor: hand;
 	text-decoration: none;
-	color: #45494c;
+	color: #303335;
 	font-weight: bold;
 	border-bottom: none;
 	font-size: 16pt;
@@ -485,7 +485,7 @@ a.glossaryTerm
 div.MCBreadcrumbsBox_0
 {
 	border-bottom-width: 0;
-	color: #45494c;
+	color: #303335;
 	border-bottom-style: solid;
 	border-bottom-color: black;
 	padding-bottom: 10px;

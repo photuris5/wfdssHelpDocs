@@ -5,12 +5,12 @@
 :root
 {
 	--Black: #000000;
-	--Dark: #45494c;
 	--Medium: #b9bec1;
 	--Light: #d0d3d5;
 	--White: #ffffff;
 	--Brand1: #1f2a35;
 	--Brand2: #41576F;
+	--Dark: #303335;
 }
 
 body
