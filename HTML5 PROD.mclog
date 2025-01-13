@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2024 r2 Generated HTML5 PROD.fltar" Date="2025-01-13T07:33:56.8697881-08:00" Branch="master" Commit="48a1caeec803c90aef7b3100fab4fed38362c4d1">
+<MadCapLog Protocol="2" Description="MadCap Flare 2024 r2 Generated HTML5 PROD.fltar" Date="2025-01-13T11:42:23.6034434-08:00" Branch="master" Commit="48a1caeec803c90aef7b3100fab4fed38362c4d1">
     <Messages>Compiling target HTML5 PROD...
 Removing previously generated content...
 Loading MadCap Central project information...
@@ -681,7 +681,7 @@ Generated Skins\Default\Stylesheets\TextEffects.micro-content.css
 Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated Default.htm
 Saving result set...
-Output generated in 28 second(s).
+Output generated in 25 second(s).
 
 Done
 </Messages>
