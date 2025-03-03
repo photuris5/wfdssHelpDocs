@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2024 r2 Generated HTML5 PROD.fltar" Date="2025-02-26T11:05:17.2335975-08:00" Branch="master" Commit="481304d3aedeffda1bb44405d2d3582de64d1873">
+<MadCapLog Protocol="2" Description="MadCap Flare 2024 r2 Generated HTML5 PROD.fltar" Date="2025-03-03T14:06:27.1018782-08:00" Branch="master" Commit="ae5d4954472e1351a49033c727dd8216cc28916b">
     <Messages>Compiling target HTML5 PROD...
 Removing previously generated content...
 Loading MadCap Central project information...
@@ -252,15 +252,19 @@ Processing topic: 20-Incidents\24-Strategic-Assessment\Strategic-Assessment.htm.
 Applying template page Other-Topics.flmsp...
 Generated 20-Incidents\24-Strategic-Assessment\Strategic-Assessment.htm
 Processing topic: 20-Incidents\24-Strategic-Assessment\Creating-a-New-Strategic-Assessment.htm...
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
 Applying template page Other-Topics.flmsp...
 Generated 20-Incidents\24-Strategic-Assessment\Creating-a-New-Strategic-Assessment.htm
 Processing topic: 20-Incidents\24-Strategic-Assessment\Editing-a-Strategic-Assessment.htm...
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
 Applying template page Other-Topics.flmsp...
 Generated 20-Incidents\24-Strategic-Assessment\Editing-a-Strategic-Assessment.htm
 Processing topic: 20-Incidents\24-Strategic-Assessment\Deleting-a-Strategic-Assessment.htm...
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
 Applying template page Other-Topics.flmsp...
 Generated 20-Incidents\24-Strategic-Assessment\Deleting-a-Strategic-Assessment.htm
 Processing topic: 20-Incidents\24-Strategic-Assessment\Highlighting-a-Strategic-Assessment.htm...
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
 Topic popups will be converted into regular hyperlinks.
 Applying template page Other-Topics.flmsp...
 Generated 20-Incidents\24-Strategic-Assessment\Highlighting-a-Strategic-Assessment.htm
@@ -732,7 +736,7 @@ Generated Skins\Default\Stylesheets\TextEffects.micro-content.css
 Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated Default.htm
 Saving result set...
-Output generated in 28 second(s).
+Output generated in 29 second(s).
 
 Done
 </Messages>
@@ -812,6 +816,10 @@ Done
         <LogEntry File="../../../Content/20-Incidents/23-Relative Risk/Relative-Risk.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
         <LogEntry File="../../../Content/20-Incidents/23-Relative Risk/Relative-Risk.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
         <LogEntry File="../../../Content/20-Incidents/23-Relative Risk/Relative-Risk.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
+        <LogEntry File="Content\20-Incidents\24-Strategic-Assessment\Creating-a-New-Strategic-Assessment.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\24-Strategic-Assessment\Editing-a-Strategic-Assessment.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\24-Strategic-Assessment\Deleting-a-Strategic-Assessment.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\24-Strategic-Assessment\Highlighting-a-Strategic-Assessment.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="../../../Content/20-Incidents/24-Strategic-Assessment/Highlighting-a-Strategic-Assessment.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
         <LogEntry File="Content\50-MicroContent\55-Incident-Complexity\Type-1-Incident-Complexity.htm" Message="Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20037" />
         <LogEntry File="Content\50-MicroContent\55-Incident-Complexity\Type-2-Incident-Complexity.htm" Message="Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20037" />
