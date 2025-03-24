@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-toc-path="WFDSS User Guide|Map and Data" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="Content-Security-Policy" content="frame-ancestors *" />
@@ -10,7 +10,7 @@
         <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
         <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
-        <meta charset="utf-8" /><title>Layer List</title>
+        <meta charset="utf-8" /><title>Planning Area</title>
         <!--<link href="../Stylesheets/font-awesome.css" rel="stylesheet" type="text/css" /> -->
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -124,39 +124,30 @@
                             </nav>
                             <div class="body-container">
                                 <div data-mc-content-body="True">
-                                    <div class="nocontent">
-                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
-                                        </div>
-                                    </div>
                                     <div role="main" id="mc-main-content">
-                                        <h1>Layer List</h1>
-                                        <h2>Basics</h2>
-                                        <p>To view the layer list, click this icon <img src="../Resources/Images/image.png" />.</p>
-                                        <p>The top category is often referred to as the "parent". The layers in the category are referred to as the "child". One Parent can have many child layers. The child layers can only have one parent category, however child layers can have multiple child layers associated to them.</p>
-                                        <p>Example:</p>
+                                        <h1>Planning Area</h1>
+                                        <p>&#160;</p>
+                                        <p>The Planning Area is the spatial representation of the extent to which the Decision applies. It defines the landscape where actions are planned, fire behavior analyses are run, and values are identified.</p>
+                                        <p>When developing an appropriate planning area for an incident, it is important to include input from fire managers, agency administrators and resources specialists or other staff. In the absence of local guidance, an FSPro long term probability output&#160; can also help inform the creation of a realistic planning area; the outputs can help inform you of where the fire may try to move as well. &#160;</p>
+                                        <p>Proper sizing of a Planning Area is important to identify the area of potential incident impact.&#160;Drawing a large planning area may incorporate more Strategic shapes and Strategic Course of Action shapes from the Spatial Fire Planning Service, but if your Planning Area is too small, you will have to create a new decision each time management actions occur outside of it. No ramifications result from drawing a large Planning Area. If you are currently developing Strategic Assessments outside of your Planning Area, it should be large enough to include those areas.</p>
+                                        <p>The Planning Area is tied to features throughout the application, including the Spatial Inventory, Firefighter Safety graphs, and Strategy stepper.  Best practice is to finalize the Planning Area and generate a Spatial Inventory prior to starting work on the Strategy stepper as the generation of the Spatial Inventory automatically clips the Spatial Fire Planning information to the Planning Area to allow for assigning objectives, requirements or other strategic categories spatially. </p>
+                                        <p>There will always only be two Planning Areas - Initial and Current.</p>
+                                        <h3>Initial Planning Area</h3>
+                                        <p>The Initial Planning Area is automatically generated when an incident decision is initiated, using the initial Point of Origin reported by the reporting system of record (through the IRWIN exchange) as the center point of a 7 x 7 mile square (~31,360 acres).  If the Point of Origin is "moved" or edited in another system, Initial Planning Area remains centered on the initial reported Point of Origin.</p>
+                                        <p>The Initial Planning Area is symbolized by a dashed line and can be turned off in the Layer List in the Incident parent group to remove it from the map view. </p>
                                         <p>
-                                            <img src="../Resources/Images/image1.png" />
+                                            <img src="../Resources/Images/InitialPA.jpg" style="width: min-content;height: min-content;" />
                                         </p>
-                                        <p>Users can drag and drop the parent categories into any order in the layer list that is convenient to the user. The same drag and drop end user organization is available for the child layers.</p>
-                                        <p>The layer list is activated by selecting the desired layer, then selecting the top layer category. Both boxes need to be checked to view layers. In the example below, to view "Current Year FIre Points", both "Significant Active Incidents" and "National Incident References" need to be check to view the current year fire points.</p>
-                                        <p>Example:</p>
-                                        <p>
-                                            <img src="../Resources/Images/image12.png" />
-                                        </p>
-                                        <h2>Features and Functions</h2>
-                                        <p>Users can adjust transparency using the three dots next to the layer name. Next the user will toggle the arrows to increase or decrease transparency.</p>
-                                        <p>
-                                            <img src="../Resources/Images/previewLayerList.png" />
-                                        </p>
-                                        <p>To view features of a layer click this icon <img src="../Resources/Images/filter.png" /></p>
-                                        <p>To download layers, click the download arrow to save the selected layer features as either a shapefile, geodatabase or a KML.</p>
-                                        <p>To delete a layer feature,  click this icon <img src="../Resources/Images/trashcan.png" /> . NOTE: Delete is only available for some layers. Delete will remove unwanted layers permanently from view. </p>
-                                        <h2>Legend</h2>
-                                        <p>To view the activated layer legend, click this icon <img src="../Resources/Images/image123.png" />.</p>
-                                        <p>The activated layer list legend will appear.</p>
-                                        <p>
-                                            <img src="../Resources/Images/image1234.png" />
-                                        </p>
+                                        <p>The application will automatically generate a <a href="../20-Incidents/22-Analysis/Spatial-Inventory.htm" title="Spatial Inventory" alt="Spatial Inventory">Spatial Inventory</a> based on the Initial Planning Area when the incident decision is started. &#160;</p>
+                                        <p>&#160;</p>
+                                        <h3>User Created Planning Area</h3>
+                                        <p>&#160;</p>
+                                        <p>Users that are Collaborators on an incident can draw, copy or upload a new Planning Area, which will automatically replace the Initial Planning Area and be named “Current”.  Users cannot rename the Planning Area.  </p>
+                                        <p>Users can utilize reference layers to inform the creation of the Planning Area. For example,  users can turn on the Potential Operational Delineation (PODs) layer under the Operational Fire Planning parent directory in the Layer List and copy a specific POD polygon as a Planning Area shape with the Drawing tool.  If the desired Planning Area consists of multiple PODS, user can use the reference layer as a guide when drawing the PA shape.</p>
+                                        <p>Once a user generates a “new” Current PA, the Current and Initial Planning Areas will have different symbology on the map.  </p>
+                                        <p>Any time the Current Planning Area is updated, the Spatial Inventory should be generated again – validate the currency of the Spatial Inventory using the date and time generated value in the Spatial Inventory table. &#160;</p>
+                                        <h3>&#160;</h3>
+                                        <p>&#160;</p>
                                     </div>
                                     <p style="text-align: left;" data-mc-conditions="General.Online"><a href="https://bugcrowd.com/owf-vdp" target="_blank">Vulnerability Disclosure Policy <i class="fa fa-external-link" aria-hidden="true"></i></a>
                                     </p>

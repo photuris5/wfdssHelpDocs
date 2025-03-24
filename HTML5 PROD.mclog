@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2024 r2 Generated HTML5 PROD.fltar" Date="2025-03-07T15:32:38.7700487-08:00" Branch="master" Commit="3ad89c3fb72d358b465897e8ed9a3b07ddc30e15">
+<MadCapLog Protocol="2" Description="MadCap Flare 2024 r2 Generated HTML5 PROD.fltar" Date="2025-03-24T12:55:37.4925035-07:00" Branch="master" Commit="fb1129b7f1fa389dd47964557d50bbe477ea4329">
     <Messages>Compiling target HTML5 PROD...
 Removing previously generated content...
 Loading MadCap Central project information...
@@ -53,7 +53,6 @@ Accessibility: Image element does not contain alt text. Please see the Help for 
 Accessibility: Image element does not contain alt text. Please see the Help for more information.
 Accessibility: Image element does not contain alt text. Please see the Help for more information.
 Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
 Applying template page Other-Topics.flmsp...
 Generated 00-General\System-Access.htm
 Processing topic: 00-General\Find-GAE.htm...
@@ -76,59 +75,6 @@ Generated 30-User_Management\User-Roles.htm
 Processing topic: 00-General\ISAP-Cost-Estimation-Spread-Sheet.htm...
 Applying template page Other-Topics.flmsp...
 Generated 00-General\ISAP-Cost-Estimation-Spread-Sheet.htm
-Processing topic: 20-Incidents\Basemap-Layers.htm...
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Applying template page Other-Topics.flmsp...
-Generated 20-Incidents\Basemap-Layers.htm
-Processing topic: 20-Incidents\Data-Services.htm...
-Applying template page Other-Topics.flmsp...
-Generated 20-Incidents\Data-Services.htm
-Processing topic: 00-General\Map.htm...
-Applying template page Other-Topics.flmsp...
-Generated 00-General\Map.htm
-Processing topic: 20-Incidents\Map-Widgets.htm...
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Topic popups will be converted into regular hyperlinks.
-Topic popups will be converted into regular hyperlinks.
-Topic popups will be converted into regular hyperlinks.
-Topic popups will be converted into regular hyperlinks.
-Topic popups will be converted into regular hyperlinks.
-Topic popups will be converted into regular hyperlinks.
-Topic popups will be converted into regular hyperlinks.
-Topic popups will be converted into regular hyperlinks.
-Applying template page Other-Topics.flmsp...
-Generated 20-Incidents\Map-Widgets.htm
-Processing topic: 20-Incidents\Layer-List.htm...
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Applying template page Other-Topics.flmsp...
-Generated 20-Incidents\Layer-List.htm
-Processing topic: 00-General\Right-Hand-Panel.htm...
-Applying template page Other-Topics.flmsp...
-Generated 00-General\Right-Hand-Panel.htm
-Processing topic: 00-General\WFDSS-Data.htm...
-Applying template page Other-Topics.flmsp...
-Generated 00-General\WFDSS-Data.htm
-Processing topic: 10-MyHome\My-Home.htm...
-Accessibility: Image element does not contain alt text. Please see the Help for more information.
-Applying template page Other-Topics.flmsp...
-Generated 10-MyHome\My-Home.htm
 Processing topic: 20-Incidents\Searching-for-an-Incident.htm...
 Applying template page Other-Topics.flmsp...
 Generated 20-Incidents\Searching-for-an-Incident.htm
@@ -171,6 +117,17 @@ Generated 20-Incidents\22-Analysis\New-Analysis.htm
 Processing topic: 20-Incidents\22-Analysis\Existing-Analysis.htm...
 Applying template page Other-Topics.flmsp...
 Generated 20-Incidents\22-Analysis\Existing-Analysis.htm
+Processing topic: 20-Incidents\Layer-List.htm...
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Applying template page Other-Topics.flmsp...
+Generated 20-Incidents\Layer-List.htm
 Processing topic: 20-Incidents\22-Analysis\Analysis-Notes.htm...
 Applying template page Other-Topics.flmsp...
 Generated 20-Incidents\22-Analysis\Analysis-Notes.htm
@@ -251,10 +208,10 @@ Generated 20-Incidents\24-Strategy\24a-Strategic-Assessment\Strategic-Assessment
 Processing topic: 20-Incidents\24-Strategy\24a-Strategic-Assessment\Strategic-Assessment.htm...
 Applying template page Other-Topics.flmsp...
 Generated 20-Incidents\24-Strategy\24a-Strategic-Assessment\Strategic-Assessment.htm
-Processing topic: 20-Incidents\24-Strategy\Creating-a-New-Strategic-Assessment.htm...
+Processing topic: 20-Incidents\24-Strategy\24a-Strategic-Assessment\Creating-a-New-Strategic-Assessment.htm...
 Accessibility: Image element does not contain alt text. Please see the Help for more information.
 Applying template page Other-Topics.flmsp...
-Generated 20-Incidents\24-Strategy\Creating-a-New-Strategic-Assessment.htm
+Generated 20-Incidents\24-Strategy\24a-Strategic-Assessment\Creating-a-New-Strategic-Assessment.htm
 Processing topic: 20-Incidents\24-Strategy\24a-Strategic-Assessment\Editing-a-Strategic-Assessment.htm...
 Accessibility: Image element does not contain alt text. Please see the Help for more information.
 Applying template page Other-Topics.flmsp...
@@ -355,6 +312,12 @@ Processing topic: 50-MicroContent\55-Incident-Complexity\Complex-Incident-Comple
 Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
 Applying template page Other-Topics.flmsp...
 Generated 50-MicroContent\55-Incident-Complexity\Complex-Incident-Complexity-Indicators.htm
+Processing topic: 20-Incidents\27-Decsion-Approval-Assessment\Decision-Rationale.htm...
+Applying template page Other-Topics.flmsp...
+Generated 20-Incidents\27-Decsion-Approval-Assessment\Decision-Rationale.htm
+Processing topic: 20-Incidents\27-Decsion-Approval-Assessment\Decision-Approval-Assessment.htm...
+Applying template page Other-Topics.flmsp...
+Generated 20-Incidents\27-Decsion-Approval-Assessment\Decision-Approval-Assessment.htm
 Processing topic: 40-Reports\WFDSS-Reports.htm...
 Applying template page Other-Topics.flmsp...
 Generated 40-Reports\WFDSS-Reports.htm
@@ -364,6 +327,48 @@ Generated 40-Reports\Legacy-Incident-Data.htm
 Processing topic: 40-Reports\Legacy-Analysis-Data.htm...
 Applying template page Other-Topics.flmsp...
 Generated 40-Reports\Legacy-Analysis-Data.htm
+Processing topic: 20-Incidents\Basemap-Layers.htm...
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Applying template page Other-Topics.flmsp...
+Generated 20-Incidents\Basemap-Layers.htm
+Processing topic: 20-Incidents\Data-Services.htm...
+Applying template page Other-Topics.flmsp...
+Generated 20-Incidents\Data-Services.htm
+Processing topic: 00-General\Map.htm...
+Applying template page Other-Topics.flmsp...
+Generated 00-General\Map.htm
+Processing topic: 20-Incidents\Map-Widgets.htm...
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Topic popups will be converted into regular hyperlinks.
+Topic popups will be converted into regular hyperlinks.
+Topic popups will be converted into regular hyperlinks.
+Topic popups will be converted into regular hyperlinks.
+Topic popups will be converted into regular hyperlinks.
+Topic popups will be converted into regular hyperlinks.
+Topic popups will be converted into regular hyperlinks.
+Topic popups will be converted into regular hyperlinks.
+Applying template page Other-Topics.flmsp...
+Generated 20-Incidents\Map-Widgets.htm
+Processing topic: 00-General\Right-Hand-Panel.htm...
+Applying template page Other-Topics.flmsp...
+Generated 00-General\Right-Hand-Panel.htm
+Processing topic: 00-General\WFDSS-Data.htm...
+Applying template page Other-Topics.flmsp...
+Generated 00-General\WFDSS-Data.htm
+Processing topic: 10-MyHome\My-Home.htm...
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Applying template page Other-Topics.flmsp...
+Generated 10-MyHome\My-Home.htm
 Processing topic: 30-User_Management\GAE.htm...
 Applying template page Other-Topics.flmsp...
 Generated 30-User_Management\GAE.htm
@@ -511,6 +516,10 @@ Generated 20-Incidents\25-Strategic-Course-of-Action\IRWIN-Reported-Strategy.htm
 Processing topic: 50-MicroContent\51-Incidents\Controlled-Date-Time.htm...
 Applying template page Other-Topics.flmsp...
 Generated 50-MicroContent\51-Incidents\Controlled-Date-Time.htm
+Processing topic: 99-NewTopics\Planning-Area.htm...
+Accessibility: Image element does not contain alt text. Please see the Help for more information.
+Applying template page Other-Topics.flmsp...
+Generated 99-NewTopics\Planning-Area.htm
 Processing topic: 20-Incidents\25-Strategic-Course-of-Action\Do-Not-Report-Strategy.htm...
 Applying template page Other-Topics.flmsp...
 Generated 20-Incidents\25-Strategic-Course-of-Action\Do-Not-Report-Strategy.htm
@@ -790,7 +799,7 @@ Generated Skins\Default\Stylesheets\TextEffects.micro-content.css
 Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated Default.htm
 Saving result set...
-Output generated in 38 second(s).
+Output generated in 27 second(s).
 
 Done
 </Messages>
@@ -815,38 +824,8 @@ Done
         <LogEntry File="Content\00-General\System-Access.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\00-General\System-Access.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\00-General\System-Access.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\00-General\System-Access.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\00-General\Find-GAE.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\00-General\Find-GAE.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Basemap-Layers.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Basemap-Layers.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
-        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
-        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
-        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
-        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
-        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
-        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
-        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
-        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
-        <LogEntry File="Content\10-MyHome\My-Home.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\20-Incidents\Watching-Incidents.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\20-Incidents\Watching-Incidents.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\20-Incidents\Starting-a-Decision.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
@@ -859,6 +838,14 @@ Done
         <LogEntry File="Content\20-Incidents\Decision-Stepper.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\20-Incidents\Decision-Stepper.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\20-Incidents\21-Incident-Information\Fire-Area.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Layer-List.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="../../../Content/20-Incidents/23-Relative Risk/Relative-Risk.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
         <LogEntry File="../../../Content/20-Incidents/23-Relative Risk/Relative-Risk.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
         <LogEntry File="../../../Content/20-Incidents/23-Relative Risk/Relative-Risk.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
@@ -870,7 +857,7 @@ Done
         <LogEntry File="../../../Content/20-Incidents/23-Relative Risk/Relative-Risk.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
         <LogEntry File="../../../Content/20-Incidents/23-Relative Risk/Relative-Risk.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
         <LogEntry File="../../../Content/20-Incidents/23-Relative Risk/Relative-Risk.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
-        <LogEntry File="Content\20-Incidents\24-Strategy\Creating-a-New-Strategic-Assessment.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\24-Strategy\24a-Strategic-Assessment\Creating-a-New-Strategic-Assessment.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\20-Incidents\24-Strategy\24a-Strategic-Assessment\Editing-a-Strategic-Assessment.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\20-Incidents\24-Strategy\24a-Strategic-Assessment\Deleting-a-Strategic-Assessment.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\20-Incidents\24-Strategy\24a-Strategic-Assessment\Highlighting-a-Strategic-Assessment.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
@@ -881,6 +868,27 @@ Done
         <LogEntry File="Content\50-MicroContent\55-Incident-Complexity\Type-4-Incident-Complexity.htm" Message="Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20037" />
         <LogEntry File="Content\50-MicroContent\55-Incident-Complexity\Type-5-Incident-Complexity.htm" Message="Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20037" />
         <LogEntry File="Content\50-MicroContent\55-Incident-Complexity\Complex-Incident-Complexity-Indicators.htm" Message="Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20037" />
+        <LogEntry File="Content\20-Incidents\Basemap-Layers.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Basemap-Layers.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\20-Incidents\Map-Widgets.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
+        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
+        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
+        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
+        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
+        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
+        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
+        <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
+        <LogEntry File="Content\10-MyHome\My-Home.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="../../../Content/00-General/User-Support.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
         <LogEntry File="Content\99-NewTopics\Measure-Tool.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\99-NewTopics\Measure-Tool.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
@@ -895,6 +903,7 @@ Done
         <LogEntry File="Content\sf_Topics\Geospatial\Infrastructure\sf_CommTwr_m.htm" Message="Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20037" />
         <LogEntry File="Content\sf_Topics\Geospatial\Infrastructure\sf_CommTwr_m.htm" Message="Accessibility: Table has no header elements. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20036" />
         <LogEntry File="Content\99-NewTopics\Upload-Tool.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
+        <LogEntry File="Content\99-NewTopics\Planning-Area.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\20-Incidents\24-Strategic-Assessment\Deleting-a-Strategic-Assessment.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\99-NewTopics\Swipe-Tool.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
         <LogEntry File="Content\99-NewTopics\Swipe-Tool.htm" Message="Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="20041" />
