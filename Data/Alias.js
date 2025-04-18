@@ -15,7 +15,7 @@ xmlAliasData += '    <Map Name=\"INCIDENT_NAME\" Link=\"50-MicroContent/51-Incid
 xmlAliasData += '    <Map Name=\"JURISDICTIONAL_UNIT_AT_ORIGIN\" Link=\"50-MicroContent/51-Incidents/Jurisdictional-Unit-at-Origin.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1011\" />';
 xmlAliasData += '    <Map Name=\"LANDOWNER_CATEGORY\" Link=\"50-MicroContent/51-Incidents/Landowner-Category.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1012\" />';
 xmlAliasData += '    <Map Name=\"LATITUDE\" Link=\"50-MicroContent/51-Incidents/Latitude.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1013\" />';
-xmlAliasData += '    <Map Name=\"LEAD\" Link=\"50-MicroContent/51-Incidents/Lead.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1014\" />';
+xmlAliasData += '    <Map Name=\"LEAD\" Link=\"50-MicroContent/51-Incidents/Point-of-Contact.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1014\" />';
 xmlAliasData += '    <Map Name=\"LONGITUDE\" Link=\"50-MicroContent/51-Incidents/Longitude.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1015\" />';
 xmlAliasData += '    <Map Name=\"OUT_DATE_TIME\" Link=\"50-MicroContent/51-Incidents/Out-Date-Time.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1016\" />';
 xmlAliasData += '    <Map Name=\"PROTECTING_UNIT_AT_ORIGIN\" Link=\"50-MicroContent/51-Incidents/Protecting-Unit-at-Origin.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1017\" />';
@@ -43,5 +43,8 @@ xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_FINANACE\" Link=\"50-Micr
 xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_LOGISTICS\" Link=\"50-MicroContent/54-Functional-Complexity/Functional-Complexity-Logistics.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1039\" />';
 xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_OPERATIONS_AIR_OPERATIONS\" Link=\"50-MicroContent/54-Functional-Complexity/Functional-Complexity-Operations-Air-Operations.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1040\" />';
 xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_PLANNING\" Link=\"50-MicroContent/54-Functional-Complexity/Functional-Complexity-Planning.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1041\" />';
+xmlAliasData += '    <Map Name=\"COLLABORATOR\" Link=\"50-MicroContent/51-Incidents/Collaborator.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1043\" />';
+xmlAliasData += '    <Map Name=\"APPROVER\" Link=\"50-MicroContent/51-Incidents/Approver.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1044\" />';
+xmlAliasData += '    <Map Name=\"FIRE_BEHAVIOR_ANALYST\" Link=\"50-MicroContent/51-Incidents/Fire-Behavior-Analyst.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1045\" />';
 xmlAliasData += '</CatapultAliasFile>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);
