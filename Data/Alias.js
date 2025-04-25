@@ -46,5 +46,8 @@ xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_PLANNING\" Link=\"50-Micr
 xmlAliasData += '    <Map Name=\"COLLABORATOR\" Link=\"50-MicroContent/51-Incidents/Collaborator.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1043\" />';
 xmlAliasData += '    <Map Name=\"APPROVER\" Link=\"50-MicroContent/51-Incidents/Approver.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1044\" />';
 xmlAliasData += '    <Map Name=\"FIRE_BEHAVIOR_ANALYST\" Link=\"50-MicroContent/51-Incidents/Fire-Behavior-Analyst.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1045\" />';
+xmlAliasData += '    <Map Name=\"FIND_YOUR_GAE\" Link=\"50-MicroContent/51-Incidents/Find-Your-GAE.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1046\" />';
+xmlAliasData += '    <Map Name=\"MY_INCIDENT_WATCHLIST\" Link=\"50-MicroContent/51-Incidents/My-Incident-Watchlist.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1047\" />';
+xmlAliasData += '    <Map Name=\"MY_ACTIVE_INCIDENTS\" Link=\"50-MicroContent/51-Incidents/My-Active-Incidents.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1048\" />';
 xmlAliasData += '</CatapultAliasFile>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);
