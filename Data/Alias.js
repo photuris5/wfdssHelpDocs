@@ -38,11 +38,11 @@ xmlAliasData += '    <Map Name=\"OBJECTIVE_CONCERNS\" Link=\"50-MicroContent/53-
 xmlAliasData += '    <Map Name=\"OWNERSHIP_CONCERNS\" Link=\"50-MicroContent/53-Organization/Ownership-Concerns.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1034\" />';
 xmlAliasData += '    <Map Name=\"POTENTIAL_FIRE_DURATION\" Link=\"50-MicroContent/53-Organization/Potential-Fire-Duration.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1035\" />';
 xmlAliasData += '    <Map Name=\"RECOMMENDED_ORGANIZATION\" Link=\"50-MicroContent/53-Organization/Recommended-Organization.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1036\" />';
-xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_COMMAND\" Link=\"50-MicroContent/54-Functional-Complexity/Functional-Complexity-Command.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1037\" />';
-xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_FINANACE\" Link=\"50-MicroContent/54-Functional-Complexity/Functional-Complexity-Finanace.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1038\" />';
-xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_LOGISTICS\" Link=\"50-MicroContent/54-Functional-Complexity/Functional-Complexity-Logistics.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1039\" />';
-xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_OPERATIONS_AIR_OPERATIONS\" Link=\"50-MicroContent/54-Functional-Complexity/Functional-Complexity-Operations-Air-Operations.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1040\" />';
-xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_PLANNING\" Link=\"50-MicroContent/54-Functional-Complexity/Functional-Complexity-Planning.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1041\" />';
+xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_COMMAND\" Link=\"50-MicroContent/54-Functional-Complexity/Command.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1037\" />';
+xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_FINANACE\" Link=\"50-MicroContent/54-Functional-Complexity/Finance.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1038\" />';
+xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_LOGISTICS\" Link=\"50-MicroContent/54-Functional-Complexity/Logistics.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1039\" />';
+xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_OPERATIONS_AIR_OPERATIONS\" Link=\"50-MicroContent/54-Functional-Complexity/Operations-Air-Operations.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1040\" />';
+xmlAliasData += '    <Map Name=\"FUNCTIONAL_COMPLEXITY_PLANNING\" Link=\"50-MicroContent/54-Functional-Complexity/Planning.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1041\" />';
 xmlAliasData += '    <Map Name=\"COLLABORATOR\" Link=\"50-MicroContent/51-Incidents/Collaborator.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1043\" />';
 xmlAliasData += '    <Map Name=\"APPROVER\" Link=\"50-MicroContent/51-Incidents/Approver.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1044\" />';
 xmlAliasData += '    <Map Name=\"FIRE_BEHAVIOR_ANALYST\" Link=\"50-MicroContent/51-Incidents/Fire-Behavior-Analyst.htm\" Skin=\"CSH-Skin\" ResolvedId=\"1045\" />';
