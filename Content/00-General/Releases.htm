@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-toc-path="WFDSS Development" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-output-analytics-server="https://doifirefighterlawenforcementtm.api.madcapflare.com/" data-mc-output-analytics-topic-id="1xBCeJNnhjA8s/yzZPKX0klswghhQwqBIyv/Ps+tEjIb/FaPj67Ixg5xeF3v1R5Sqt46pC90FxHn95y13ZLUSpLYzC1CaHDVF8AexlXgaF0jOHFHirodrVyMvGjdfwLtqx/3WYX1Lek=" data-mc-has-content-body="True" data-mc-toc-path="WFDSS Development" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="Content-Security-Policy" content="frame-ancestors *" />
@@ -130,6 +130,98 @@
                                     </div>
                                     <div role="main" id="mc-main-content">
                                         <h1>Releases</h1>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS v1.0.1 Release Notes (05/15/2025)</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <h2>Fixes</h2>
+                                                <h3>508 Compliance &amp; UI Standards</h3>
+                                                <p>•	Fixed an issue causing button labels on the User Search Menu to be cutoff at certain screen resolutions.</p>
+                                                <h3>Analysis</h3>
+                                                <p>•	Fixed a bug in which the status of an analysis could be saved without the required fields completed.</p>
+                                                <p>•	Updated the Data Source options on Landscape Extent; they are listed as most recent first for full refresh versions, followed by REMAP, and then MOD-FIS layers.</p>
+                                                <p>•	Fixed an issue causing Incident Collaborators to receive a red error message and prevents them from viewing the Analysis summary.</p>
+                                                <p>•	Fixed an issue that prevented the downloading of some FSPro outputs if only partial results are available; users can now download the partial results.</p>
+                                                <p>•	Fixed an issue preventing Landscapes from creating if they included an edit with a mask.</p>
+                                                <h3>Chart and Image Integration</h3>
+                                                <p>•	Addressed lower environment issue relating to graphs not displaying in correct location in Relative Risk.</p>
+                                                <p>•	Fixed an issue to prevent the Fire Area/Collaborators from section from being available if the user had not initiated a decision on a new incident OR clicked on the decision button on an incident that has an decision started already. Fixed an issue preventing the Pie Charts in the Fire Area from displaying until the Spatial Inventory was generated.</p>
+                                                <h3>Cleanup</h3>
+                                                <p>•	Old URL for homepage updated in Production.</p>
+                                                <p>•	The User List sorting was updated to enforce alphabetical order regardless of capitalization of names.</p>
+                                                <h3>Decision Approval/Assessment</h3>
+                                                <p>•	Fixed an issue that retrieved excessive and unnecessary data when users navigated to incidents.</p>
+                                                <p>•	Fixed a bug relating to Decision Approver Actions; Decision Approver fields can only be saved by Approvers if they are denoted as Approver(s) in "Incident Collaborators" section or if they have GAE or Support Roles.</p>
+                                                <h3>Environment Setup</h3>
+                                                <p>•	Fixed the build process for resource proxy, establishing reliable and consistent method for creating and deploying proxy servers that access and distribute resources.</p>
+                                                <h3>IRWIN Writing</h3>
+                                                <p>•	Fixed a bug in which an uploaded incident perimeter did not correctly write to the IRWIN system for calculated acres.</p>
+                                                <h3>Map Basics</h3>
+                                                <p>•	Fixed an issue preventing multi-part point shapes from uploading.</p>
+                                                <p>•	Fixed an issue causing uploaded zip files to fail if the file extension was capitalized.</p>
+                                                <p>•	Fixed an issue causing shapefiles that contained "M" and "Z" values to fail.</p>
+                                                <p>•	Fixed an issue that allowed new incident points as well as drawn and uploaded perimeters to have a currency date in the future; these shapes cannot have future dates.</p>
+                                                <h3>Map Performance</h3>
+                                                <p>•	Fixed an issue preventing Landscape Images from displaying at zoom levels of 1:577,791 and more.</p>
+                                                <p>•	Fixed an issue in which the Current Planning area did not display on the map when using the Print Map feature.</p>
+                                                <h3>PDF Generator</h3>
+                                                <p>•	Fixed an issue that prevented the Decision PDF from being accessible if the name of the incident had a "/" in the name.</p>
+                                                <p>•	Fixed an issue that was preventing proper formatting on the Estimated Cost in the Decision PDF.</p>
+                                                <h3>Strategic Course of Action</h3>
+                                                <p>•	Fixed an issue preventing users from uploading User Defined Strategic Course of Action shapes.</p>
+                                                <h3>UI Basics</h3>
+                                                <p>•	Fixed an issue preventing the My Incident Watchlist from reflecting the most current Lead Collab/Point of Contact.</p>
+                                                <p>•	Addressed lower environment issue relating to editing the collaborator list.</p>
+                                                <h2>Features/Improvements</h2>
+                                                <h3>508 Compliance &amp; UI Standards</h3>
+                                                <p>•	Tested Relative Risk section for 508 compliance, adjustments for conformity will be addressed in future releases.</p>
+                                                <p>•	Improved 508 compliance with sections in the Relative Risk including screen reader features.</p>
+                                                <p>•	Improved 508 Compliance for screen readers for some buttons and toggles.</p>
+                                                <h3>Analysis</h3>
+                                                <p>•	Ensured user receives clear message on screen to indicate when weather data is in the process of saving and when weather data is saved.</p>
+                                                <p>•	Ensured the historical daily ERC values in the FSPro Input file are ordered chronologically to support proper model function.</p>
+                                                <p>•	Removed the current (incomplete) year from the historic Energy Release Component (ERC) calculations for ERC Classes in FSPro.</p>
+                                                <p>•	Improved the data call to the Fire Environment Mapping System (FEMS) for Energy Release Component (ERC) data.</p>
+                                                <h3>Chart and Impact Integration</h3>
+                                                <p>•	Updated the title of the pie chart for the Suppression Difficulty Index to reflect is it for the 97th percentile.</p>
+                                                <h3>Cleanup</h3>
+                                                <p>•	Ensured the Approver Checkbox selection is retained when Saved on the User Profile.</p>
+                                                <p>•	In the Weather section of the Fire Area replaced "Weather details go here" with  "This Area Under Development" to improve user understanding.</p>
+                                                <p>•	Re-ordered the Data Source options from the Landfire Product Service to ensure the latest Non- ModFIS layer is the default and presents in most recent to least recent order. Landfire 2014 was removed as an option.</p>
+                                                <p>•	Changed verbiage in User Preferences and Profiles to improve user understanding.</p>
+                                                <p>•	Improved Incident Details section: corrected wording, formats, selections, and removing placeholder text.</p>
+                                                <p>•	Removed excess tabs from User Profile section and added placeholder text in the User Notification section.</p>
+                                                <p>•	On the My Home tab, removed My Activity Section; In the My Active Incidents section, improved character spacing, column names, column order.</p>
+                                                <h3>Decision Approval Assessment</h3>
+                                                <p>•	The Relative Risk Assessment section is now Read Only after an incident has an out date.</p>
+                                                <p>•	Adjusted the Decision Approval &amp; Assessment Accordion to enforce proper access and use based on user role and “Ready for Approval” button is selected.</p>
+                                                <p>•	The Cost Estimation Narrative now provides a Rich Text Editor and is a required field.</p>
+                                                <h3>Environment Setup</h3>
+                                                <p>•	Fixed/updated memory allocation for node build.</p>
+                                                <p>•	Updated the ArcGIS Server URL for Analysis in all environments.</p>
+                                                <h3>Legacy Data</h3>
+                                                <p>•	Built the User Interface for future Legacy Data searching. Note this is the Interface only, the functionality is forthcoming.</p>
+                                                <h3>Map Basics</h3>
+                                                <p>•	Added validation to the dates for Perimeters and New Incidents to ensure backend connections to services aren't broken.</p>
+                                                <p>•	Improved error reporting when shape uploads fail.</p>
+                                                <h3>Map Layers</h3>
+                                                <p>•	Updated the Strategy option for "Confine/Contain" to "Confine."</p>
+                                                <p>•	Fixed broken URL link for NWS spot weather forecasts.</p>
+                                                <p>•	Updated Spatial Fire Planning Layer names to reflect new names/conventions.</p>
+                                                <h3>PDF Generator</h3>
+                                                <p>•	PDF Decision links contain the full incident name.</p>
+                                                <p>•	The decision PDF supports the Rich Text Editor in the Cost section.</p>
+                                                <h3>Strategic Course of Action</h3>
+                                                <p>•	Changed the verbiage in the Strategic Course of Action to be more intuitive.</p>
+                                                <h3>UI Basics</h3>
+                                                <p>•	Created deployment guide to document production build and deploy for EDU, OAT and PRD environments.</p>
+                                                <p>•	Improvements were made to the Editor/Collaborator feature including incidents with decisions reflecting the correct collaborators and POC and ability to edit them.</p>
+                                                <p>•	Removed the button for bulleted lists from text editor menu in decision content as it breaks the publishing of the decision PDF.</p>
+                                                <p>•	Added a cancel button to a pop-up in case a user accidentally un-toggles "Ready For Publication”.</p>
+                                                <p>•	Updated the Banner color for each environment; this aids users to differentiate the environments. Production is Charcoal, Education is Light Green, UAT is Black, QA is Dark Green, Dev is Purple.</p>
+                                                <h3>User Roles</h3>
+                                                <p>•	Updated to prevent non-collaborator Editors from being able to edit the Relative Risk Assessment.</p>
+                                                <p>•	Updated to prevent non collaborator Editors from being able to edit information on the Incident Info tab.</p>
+                                            </div>
+                                        </div>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS v1.0 Release Notes (03/26/2025)</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <p>The WFDSS NextGen version 1.0 application has been released and includes minimum viable product for searching for an incident, starting a decision, creating an FSPro Analysis, entering decision information and creating a decision document.&#160;&#160;The major feature areas included in this release are as follows:</p>
@@ -176,7 +268,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="topicmod" style="text-align: right;" data-mc-conditions="General.Online">This topic was last modified on <span class="mc-variable General.LastSavedDate variable">April 04, 2025</span></p>
+                                    <p class="topicmod" style="text-align: right;" data-mc-conditions="General.Online">This topic was last modified on <span class="mc-variable General.LastSavedDate variable">May 14, 2025</span></p>
                                     <p style="text-align: left;" data-mc-conditions="General.Online"><a href="https://bugcrowd.com/owf-vdp" target="_blank">Vulnerability Disclosure Policy <i class="fa fa-external-link" aria-hidden="true"></i></a>
                                     </p>
                                 </div>
