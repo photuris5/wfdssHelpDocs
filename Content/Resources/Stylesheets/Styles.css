@@ -1251,3 +1251,11 @@ p.topicmod
 	font-size: 9.0pt;
 }
 
+div.announce
+{
+	border: solid 2px #ff0000;
+	padding: 15px;
+	border-radius: 5px;
+	margin: 10px;
+}
+
