@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2025 Generated HTML5 PROD.fltar" Date="2025-05-27T15:32:29.9105989-07:00" Branch="master" Commit="5727b44f8ddc09b3dcb8b56a7e4edfa39e8baaa6">
+<MadCapLog Protocol="2" Description="MadCap Flare 2025 Generated HTML5 PROD.fltar" Date="2025-05-28T09:17:32.5851768-07:00" Branch="master" Commit="91babc2a048820dd0f4d61b52a60b971977c706c">
     <Messages>Compiling target HTML5 PROD...
 Removing previously generated content...
-Unable to login to Flare Online, some features may be unavailable.
+Loading Flare Online project information...
+Flare Online project ID: 22620
 Loading skin info...
 Gathering Glossary information...
 Gathering Auto-index information...
@@ -336,6 +337,9 @@ Processing topic: 20-Incidents\Basemap-Layers.htm...
 Applying template page Other-Topics.flmsp...
 Generated 20-Incidents\Basemap-Layers.htm
 Processing topic: 20-Incidents\Data-Services.htm...
+Topic popups will be converted into regular hyperlinks.
+Topic popups will be converted into regular hyperlinks.
+Topic popups will be converted into regular hyperlinks.
 Applying template page Other-Topics.flmsp...
 Generated 20-Incidents\Data-Services.htm
 Processing topic: 00-General\Map.htm...
@@ -891,12 +895,11 @@ Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated Default.htm
 Saving result set...
 Ignored Compiler Warnings: 95
-Output generated in 31 second(s).
+Output generated in 28 second(s).
 
 Done
 </Messages>
     <Warnings>
-        <LogEntry Message="Unable to login to Flare Online, some features may be unavailable.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="10180" />
         <LogEntry File="../../../Content/Resources/Images/Logo.eps" Message="You must install Ghostscript if you insert a postscript file (e.g., EPS, PS). Ghostscript allows these elements to be converted to a supported file type in the output. Ghostscript is also used to render vector graphics in the XML Editor. To install the latest version of Ghostscript, click the link below.&#xA;&#xA;https://www.madcapsoftware.com/downloads/ghostscript64.aspx&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Image Processor" Target="HTML5 PROD" ErrorID="10032" />
         <LogEntry File="../../../Content/Resources/Images/Assets/Images/Logo.eps" Message="You must install Ghostscript if you insert a postscript file (e.g., EPS, PS). Ghostscript allows these elements to be converted to a supported file type in the output. Ghostscript is also used to render vector graphics in the XML Editor. To install the latest version of Ghostscript, click the link below.&#xA;&#xA;https://www.madcapsoftware.com/downloads/ghostscript64.aspx&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Image Processor" Target="HTML5 PROD" ErrorID="10032" />
         <LogEntry File="../../../Content/20-Incidents/23-Relative Risk/Relative-Risk.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
@@ -918,6 +921,9 @@ Done
         <LogEntry File="../../../Content/20-Incidents/24-Strategic-Assessment/Cost.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
         <LogEntry File="../../../Content/20-Incidents/24-Strategic-Assessment/Cost.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
         <LogEntry File="../../../Content/20-Incidents/24-Strategic-Assessment/Estimated-Final-Cost.htm" Message="Missing linked source file: C:\Flare\WFDSS\Content\00-General\Link - https:\\fs-prod-nwcg.s3.us-gov-west-1.amazonaws.com\s3fs-public\2024-05\ibc-2023-standard-rates.xlsx&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="10001" />
+        <LogEntry File="../../../Content/20-Incidents/Data-Services.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
+        <LogEntry File="../../../Content/20-Incidents/Data-Services.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
+        <LogEntry File="../../../Content/20-Incidents/Data-Services.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
         <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
         <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
         <LogEntry File="../../../Content/20-Incidents/Map-Widgets.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
