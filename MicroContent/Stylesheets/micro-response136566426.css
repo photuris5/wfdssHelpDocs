@@ -635,6 +635,51 @@
 	width: 33.3%;
 }
 
+.micro-response136566426 div.annoucementRow	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.micro-response136566426 div.annoucementRow::before
+{
+	content: ' ';
+	display: table;
+}
+
+.micro-response136566426 div.annoucementRow::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+.micro-response136566426 div.annoucementRow > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.micro-response136566426 div.annoucementRow > div:nth-child(1)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+.micro-response136566426 div.annoucementRow > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+.micro-response136566426 div.annoucementRow > div:nth-child(3)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
 @media only screen and (max-width: 1279px)
 {
 	/* Home page topic */
@@ -721,6 +766,24 @@
 		width: 33.33333%;
 		margin-left: 0%;
 	}
+
+	.micro-response136566426 div.annoucementRow > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	.micro-response136566426 div.annoucementRow > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	.micro-response136566426 div.annoucementRow > div:nth-child(3)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
 }
 
 @media only screen and (max-width: 767px)
@@ -794,6 +857,24 @@
 	}
 
 	.micro-response136566426 div.loginButtons > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	.micro-response136566426 div.annoucementRow > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	.micro-response136566426 div.annoucementRow > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	.micro-response136566426 div.annoucementRow > div:nth-child(3)
 	{
 		width: 100%;
 		margin-left: 0%;
