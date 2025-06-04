@@ -1260,3 +1260,12 @@ div.announce
 	margin: 10px;
 }
 
+div.announce2
+{
+	padding: 15px;
+	border-radius: 5px;
+	margin: 10px;
+	border: solid 2px #d0350f;
+	background-color: transparent;
+}
+
