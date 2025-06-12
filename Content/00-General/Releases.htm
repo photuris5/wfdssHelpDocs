@@ -130,6 +130,165 @@
                                     </div>
                                     <div role="main" id="mc-main-content">
                                         <h1>Releases</h1>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS v1.0.2 Release Notes (06/12/2025)</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <h2>Fixes</h2>
+                                                <h3>Analysis</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>The options to use Fuel Model V, W, X, Z for ERC Classes have been removed in FSPro ERC Classes; at this time ERC Y is the only suitable option for FSPro modeling.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added analysis status name to notes title in brackets.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Map Layers</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Set a character limit for "Feature Name" to prevent issues with map Mask Layers.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>PDF Generator</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed an issue that prevented the Decision PDF from creating if there were bulleted lists in any part of the decision text.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>UI Basics</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed one issue preventing users from uploading zip files that had a period in the file name.</p>
+                                                    </li>
+                                                </ul>
+                                                <h2>Features/Improvements</h2>
+                                                <h3>508 Compliance &amp; UI Standards</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Tested the WFDSS Homepage for 508 Compliance.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Analysis</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added ability to download a zipped .tif file of the landscape from the Landscape tab of an FSPro run.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Cleanup</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added System Access Renewal Date to user profile view.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Removed the requirement for a 'Protection Objective' in the Strategic Assessment Tab of a Decision.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated Risk Management Assistance link and added Interagency Spatial Fire Planning Service link.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Changed error validation on Strategic Assessment tab, system no longer requires a Protection Objective be included in a decision.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Core Application</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Updated microservices to ensure proper functionality.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Decision Approval Assessment</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Made Decision/Approval Tab read only when a fire is declared out.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Made Organization Assessment components read only when a fire is declared out.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Made Strategy Tab read only when a fire is declared out.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Ensured the Analysis Tab is available when a fire is declared out; Ready for Publish and Summary are read only but new analysis can be created after out date.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Environment Setup</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Progress made toward future connection to Fire Modeling Service Framework Version 2.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Addressed configuration issues relating to dependencies.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Field Level CMS Integration</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added field level user Help on "GAE Staff Report" page.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added field level user Help on the "My Home Page."</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Incident Services</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Changes to the analysis status and assigned analyst name are saved in the FSPro results layers.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Landscape Rules</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Ensured that a user is able to multiply Landscape Edit Rules for Canopy Bulk Density.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Legacy Data</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Verified the integrity of files transferred from Classic WFDSS to storage location for later use in NextGen WFDSS.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Map Layers</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Updated to the latest service for Fireguard Points and Polygons.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL and the name for USFS Grazing Allotments.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for USFS Aquatic Retardant Avoidance.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>PDF Generator</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Enabled the HTML tags in the decision PDF's connected to the Spatial Fire Planning Language Entries.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Technical Debt Clean Up</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>IRWIN Observer link in the Support Dashboard tab is now configurable per the environment the application is connected to.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>UI Basics</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Created documentation for WFDSS features to warn users about unsaved changes when they try to navigate away without saving.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Users receive a warning message if they try to navigate away from a page with unsaved changes/edits.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>User Roles and Access</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Ensured that as an editor, a non-collaborator is not able to edit in the Organization &amp; Complexity tab.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Ensured that as an editor, a non-collaborator is not able to edit in the Strategy Tab.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS&#160;v1.0.1.6 Release Notes (05/30/2025)</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <h2>Fixes</h2>
