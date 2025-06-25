@@ -1398,10 +1398,10 @@
 
 .micro-response136566426 div.announce
 {
-	border: solid 2px #ff0000;
 	padding: 15px;
 	border-radius: 5px;
 	margin: 10px;
+	border: solid 4px #b22222;
 }
 
 .micro-response136566426 div.announce2
