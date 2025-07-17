@@ -1190,6 +1190,24 @@ a.loginButton3:hover
 	color: #1f2a35;
 }
 
+div.announce1
+{
+	padding: 15px;
+	border-radius: 5px;
+	margin: 10px;
+	background-color: transparent;
+	border: solid 2px var(--Brand2);
+}
+
+div.announce3
+{
+	padding: 15px;
+	border-radius: 5px;
+	margin: 10px;
+	background-color: transparent;
+	border: solid 2px var(--Brand2);
+}
+
 /*<meta sourceDocument="C:\Users\Gina Wilson\Desktop\Searching for an Incident.docx" />*/
 /*<meta sourceDocument="C:\Users\Gina Wilson\Desktop\Starting a Decision.docx" />*/
 
