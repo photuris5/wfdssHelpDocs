@@ -130,6 +130,228 @@
                                     </div>
                                     <div role="main" id="mc-main-content">
                                         <h1>Releases</h1>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS v1.0.3 Release Notes (07/24/2025)</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <h2>Fixes</h2>
+                                                <h3>Analysis Actions</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Ensured that Analysis Notes are saved and viewable in Analysis Requests.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed an error causing analysis failures when a user deleted a cell value in the Winds Matrix of an FSPro.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Analysis General</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Ensured the ERC Class data remains visible on the Weather Tab after an FSPro run is submitted.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed an issue in which fuel moisture values in the FSPro ERC Classes were not consistent; initially using 1300 observation values and subsequently displaying all hours observation values.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed a bug that labeled landscapes with having "No Rules" even when the landscapes did have edit rules applied on the Run/Results subtab of an Analysis.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed a bug that gave an Incident Editor a Red Error message when requesting an FSPro run.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed an issue that caused user edited values for ERCs and Winds in FSPro to sometimes default to the original values.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Decision General</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed an issue that allowed for editing of the Organization Assessment while the Relative Risk section was not marked Ready for Publication.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>FSPro</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed an issue causing the RAWS stations selected in one incident to pre-populate in a subsequent incident.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed an issue to ensure ERC Class values edited in the user interface are used in the modeling service.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed an issue in which an additional day was added to the start date of an FSPro analysis if a forecast was not used.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed an issue that prevented the RAWS station list for FSPro modeling from updating to the incident's location if an analyst navigated between incidents in one session.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed a bug that sometimes prevented the Wind data in an FSPro run from being retained.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed an issue in which the dates selected for FSPro Winds generation would default to the whole year after the user generated the Wind Matrix.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Landscape Rules</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed a bug that caused LCPs to fail if there were many landscape edits.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Map Layers</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed a bug preventing the downloading of shapes that had a colon in the shape name.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Map Performance</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed a bug causing the Print Map feature to not function if the map has more than one FSPro Flame Length displayed.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>PDF Generator</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed an issue in which the Recommended Organization in the PDF decision did not always match the User Interface in the application.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed a bug that copied the verbiage and text entered into the Fuel Conditions text box of Relative Risk to the Infrastructure/Natural/Cultural Concerns text box in the PDF of the decision.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed an issue in which an unpaired quote in the language associated with Spatial Fire Planning Shapes caused corrupted decisions.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>UI Basics</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Subtabs on the Support Tab used by Support Role now identify which tab the user is on.</p>
+                                                    </li>
+                                                </ul>
+                                                <h2>Features/Improvements</h2>
+                                                <h3>508 Compliance &amp; UI Standards</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Tested 508 compliance in the following areas of the application: Organization Assessment and Complexity, Decision Approval &amp; Assessment.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Assessed the following areas for 508 compliance: Incident Info, Analysis-New Analysis, Existing Analyses, and Strategy.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Analysis Actions</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Ensured Analysis Notes remain with Analysis Requests.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Analysis General</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed an issue causing a note associated with an analysis request to not save consistently.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added a link to the LANDFIRE website in the Landscape tab for analysis to facilitate verification of availability of ModFis fuel model data.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Ensure the Current Year ERC values after the Start Date of an FSPro are not included in the Input File.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Chart and Image Integration</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Ensures the Windrose Chart in FSPro is properly updated when users change weather parameters.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Cleanup</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Corrected the "Mimic Role" function that Support Role uses to ensure proper functionality.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Decision Approval Assessment</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Made the Incident Info Tab read only when an Incident is declared out.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>FSPro</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>The Weather Tab of the FSPro model has been refactored to improve user experience and performance.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the FSPro Input file to be compliant with FMSF 2.0.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Adjusted the User Interface of FSPro ERC Classes to meet the requirements of FMFS 2.0.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the Analysis Results tab to list the FMFS ID number under the status accordion.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the FSPro minimum ERC Stream to allow a zero value.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Adjusted the input file for FSPro to ensure only integers are used for ERC to support changes in the Fire Modeling Service Framework.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Map Layers</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Updated the Snag Hazard to include all categories and ensured it populates correctly in the Spatial Inventory.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the URL for Infrastructure - Utilities and Transportation.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for Incident Strategic Alignment Process (ISAP).</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Technical Debt Cleanup</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Made adjustments to improve diagnosing errors and other failures by capturing needed details in the logging.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>UI Basics</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>The column header for Recommended Organization was updated to Unit Recommended Organization on the My Home tab.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Users receive a warning message if they try to navigate away from the User Profile tabs without saving their work.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Users receive a warning message if they try to navigate away from the Strategy tabs without saving their work.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the warning message users receive if they navigate off a page with unsaved changes so that is it more clear what action to take in order to save edits vs. abandon changes.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Bulleted Lists have been re-enabled; PDFs of the Decision content will now function with bullets.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Users receive a warning message if they try to navigate away from the Decision Approval/Assessment tabs without saving their work.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Users receive a warning message if they try to navigate away from the Organization Assessment tabs without saving their work.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Users receive a warning message if they try to navigate away from the Relative Risk tab without saving their work.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Users receive a warning message if they try to navigate away from the Analysis tabs without saving their work.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The button used to create and download shapes has renamed to “Download” to make it more clear for users.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>User Role Access</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed a bug allowing Editors who are Non-Collaborators to switch On/Off the Ready for Publication toggles.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Ensured Editor, non-Collaborator users are not able to create 'Analysis' or 'Request for Analysis'.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS v1.0.2.3 Release Notes (07/18/2025)</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <h2>Features/Improvements</h2>
