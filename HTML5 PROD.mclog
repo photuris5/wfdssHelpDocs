@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2025 Generated HTML5 PROD.fltar" Date="2025-07-29T08:41:28.1523839-07:00" Branch="master" Commit="1298e4c64a2fb2a6deddab3ae77764ab545cc583">
+<MadCapLog Protocol="2" Description="MadCap Flare 2025 Generated HTML5 PROD.fltar" Date="2025-08-01T11:41:08.9421755-07:00" Branch="master" Commit="088b922e6659be7e92740a075cc7bcd06de58be9">
     <Messages>Compiling target HTML5 PROD...
 Removing previously generated content...
-Loading Flare Online project information...
-Flare Online project ID: 22620
+Unable to login to Flare Online, some features may be unavailable.
 Loading skin info...
 Gathering Glossary information...
 Gathering Auto-index information...
@@ -961,11 +960,12 @@ Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated Default.htm
 Saving result set...
 Ignored Compiler Warnings: 95
-Output generated in 31 second(s).
+Output generated in 35 second(s).
 
 Done
 </Messages>
     <Warnings>
+        <LogEntry Message="Unable to login to Flare Online, some features may be unavailable.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="10180" />
         <LogEntry File="../../../Content/Resources/Images/Logo.eps" Message="You must install Ghostscript if you insert a postscript file (e.g., EPS, PS). Ghostscript allows these elements to be converted to a supported file type in the output. Ghostscript is also used to render vector graphics in the XML Editor. To install the latest version of Ghostscript, click the link below.&#xA;&#xA;https://www.madcapsoftware.com/downloads/ghostscript64.aspx&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Image Processor" Target="HTML5 PROD" ErrorID="10032" />
         <LogEntry File="../../../Content/Resources/Images/Assets/Images/Logo.eps" Message="You must install Ghostscript if you insert a postscript file (e.g., EPS, PS). Ghostscript allows these elements to be converted to a supported file type in the output. Ghostscript is also used to render vector graphics in the XML Editor. To install the latest version of Ghostscript, click the link below.&#xA;&#xA;https://www.madcapsoftware.com/downloads/ghostscript64.aspx&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Image Processor" Target="HTML5 PROD" ErrorID="10032" />
         <LogEntry File="../../../Content/20-Incidents/23-Relative Risk/Relative-Risk.htm" Message="Topic popups will be converted into regular hyperlinks.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 PROD" ErrorID="70004" />
