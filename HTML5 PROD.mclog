@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2025 Generated HTML5 PROD.fltar" Date="2025-08-11T13:19:53.7492075-07:00" Branch="master" Commit="9249b21787cc1661eea8da389def7d9a6d206e6b">
+<MadCapLog Protocol="2" Description="MadCap Flare 2025 Generated HTML5 PROD.fltar" Date="2025-08-11T13:27:18.9348784-07:00" Branch="master" Commit="45e4ae7cfdd71be70a6e62763c5962409f54ad38">
     <Messages>Compiling target HTML5 PROD...
 Removing previously generated content...
 Unable to login to Flare Online, some features may be unavailable.
@@ -960,7 +960,7 @@ Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated Default.htm
 Saving result set...
 Ignored Compiler Warnings: 95
-Output generated in 31 second(s).
+Output generated in 21 second(s).
 
 Done
 </Messages>
