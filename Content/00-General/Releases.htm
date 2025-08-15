@@ -130,26 +130,46 @@
                                     </div>
                                     <div role="main" id="mc-main-content">
                                         <h1>Releases</h1>
-                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS v1.0.4.1 Release Notes (08/12/2025)</a></span>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS v1.0.5 Release Notes (08/14/2025)</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <h2>Fixes</h2>
-                                                <h3>Map Basics</h3>
+                                                <h3>Analysis General</h3>
                                                 <ul>
                                                     <li>
-                                                        <p>Fixed a bug that prevented the Print Map feature from working in Production after the 1.0.3 release.</p>
+                                                        <p>Fixed a bug causing the ERC Classes and Stream data to not be retained after an FSPro status is changed from Review.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed a bug reading the Slope Class for RAWS stations properly.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed a bug preventing users from marking the Analysis Summary “Ready for Publication” when there were expired analyses that were not included in the decision.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed an issue in which an FSPro analysis showed as "Failed" if there was a network error while it was processing; the system will now retry to connect to the Fire Modeling Service Framework.</p>
                                                     </li>
                                                 </ul>
-                                                <h2>Features/Improvements</h2>
-                                                <h3>Environmental Setup</h3>
+                                                <h3>FSPro</h3>
                                                 <ul>
                                                     <li>
-                                                        <p>Improved error logging for services</p>
+                                                        <p>The default wind dates in FSPro were adjusted to 2 weeks prior to the start date and 4 weeks after the start date. Analysts can set the date range for any length of days.</p>
                                                     </li>
                                                 </ul>
-                                                <h3>Technical Debt</h3>
+                                                <h3>IRWIN Writing</h3>
                                                 <ul>
                                                     <li>
-                                                        <p>The application was upgraded to ArcGIS Server v.11.5.</p>
+                                                        <p>Updated the IRWIN Observer Links in the Support Dashboard to the correct IRWIN environments.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Map Layers</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Ensured all the Snag Hazard data categories are current and reflected in the Firefighter Safety Chart.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Strategic Course of Action</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added Suppression Strategy to the CSV Download on the Strategic Course of Action tab.</p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -907,7 +927,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="topicmod" style="text-align: right;" data-mc-conditions="General.Online">This topic was last modified on <span class="mc-variable General.LastSavedDate variable">May 14, 2025</span></p>
+                                    <p class="topicmod" style="text-align: right;" data-mc-conditions="General.Online">This topic was last modified on <span class="mc-variable General.LastSavedDate variable">August 13, 2025</span></p>
                                     <p style="text-align: left;" data-mc-conditions="General.Online"><a href="https://bugcrowd.com/owf-vdp" target="_blank">Vulnerability Disclosure Policy <i class="fa fa-external-link" aria-hidden="true"></i></a>
                                     </p>
                                 </div>
