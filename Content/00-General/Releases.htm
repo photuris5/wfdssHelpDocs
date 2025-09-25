@@ -51,7 +51,7 @@
         <div class="foundation-wrap off-canvas-wrapper">
             <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
                 <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
-                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
                     </ul>
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
@@ -118,7 +118,7 @@
                         <div class="row outer-row sidenav-layout">
                             <nav class="sidenav-wrapper">
                                 <div class="sidenav-container">
-                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
                                     </ul>
                                 </div>
                             </nav>
@@ -130,6 +130,222 @@
                                     </div>
                                     <div role="main" id="mc-main-content">
                                         <h1>Releases</h1>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS v1.1 Release Notes (09/25/2025)</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <h2>Fixes</h2>
+                                                <h3>Analysis General</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Corrects minor typo on the Run/Results tab in FSPro.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Cleanup</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed a grammatical error on the Organization Assessment.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the Homepage Link for all view options of the top menu bar.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Decision General</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Users are required to complete Part D of the Organization and Complexity Assessment if either the system or the Unit Recommended values reflect CIMT.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>IRWIN Synchronization</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Users can continue to access incidents in their watchlist that have been changed to False Alarm or Invalid records.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Landscape Rules</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed a bug in which edits in a landscape to Canopy Characteristics that used a modifier of 'multiple by' were incorrectly increasing the resultant value by a factor of 10.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed a bug preventing analysts from making Canopy Cover edits with a multiplier of less than 1.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>UI Basics</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Adjusted the interface to ensure both Cost Estimator Spreadsheets are right hand justified consistently.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Notes entered on the Create and Requests Analysis screen are now retained and viewable.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed a user time out issues; users should receive a prompt when their session has expired.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The time zones listed on the Incident Info tab for Discovery Date/Time, Contained Date/Time, Controlled Date/Time, and Out Date/Time are Central Time.</p>
+                                                    </li>
+                                                </ul>
+                                                <h2>Features/Improvements</h2>
+                                                <h3>508 Compliance &amp; UI Standards</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fonts updated to meet 508 compliance and style guide.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Analysis General</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>The Weather Station Comparison table has been added to the Supporting Information accordion under the FSPro Weather tab that compares RAWS stations to aid in selection.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Chart and Image Integration</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>FSPro Fire Size Histograms are available from the Run/Results tab in the Graph and Chart Outputs accordion for FSPro analysis that have results.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Cleanup</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Updated the error message users receive if trying to save the Organization and Complexity tab if not all required components are completed.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added "National" to the Geographic Area dropdown options for Geographic Area Editors.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Calendar feature is fixed in place so users can easily scroll through months/years and also removed extra scrollbar.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Decision Approval/Assessment</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added a progress bar for the Decision PDF generation.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Approvers can view and download a Draft PDF of the Decision prior to approving by selecting the Approve button on the Decision Approval Assessment tab.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Users will be shown an error message when trying to mark a decision Ready for Approval if it contains analysis that are expired and were included in the Decision.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Users cannot un-toggle decision components marked Ready for Publication after an Approver has initiated the approval process by approving the Decision until the decision has been published. To make edits it must be Returned for Edits prior to Publication.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Decision Approval workflow allows for multiple approvers and Return for Edits. If all Approvers have Approved the Decision, any Approver or a GAE can Publish the Decision.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Users can now see the Approvers for the decision on the Decision Approval Assessment tab.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The number of days between required assessments and the Decision Assessment and Approval Notes text box retain their values after publication of decisions.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Decision Approvers appear on the Decision Approver Assessment with a date/timestamp that corresponds to when each approved the Decision.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The system tracks stages of a decision status, i.e. pending, ready for approval, returned for edits, etc.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added Current Planning Area effective date.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Connected the Decision Approval &amp; Assessment tab to the Required Decision Elements checkboxes to ensure all required elements are complete prior to Decision Approval.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Any incident collaborator can mark a decision Ready for Approval provided all the required Decision elements have been completed.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Any Approver can select the Return for Edits button which allows decisions to be edited. The decision will need to be marked Ready for Approval again after edits have been completed before the Approvers can approve.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Incident collaborators can view a checklist of required decision elements that will automatically check when each section is marked Ready for Publication with a corresponding date/timestamp on the Required Decision Elements accordion of the Decision Approval &amp; Assessment tab.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Decision Publishing</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Draft and final PDFs of decisions contain the name of all approvers and the date/timestamp approved.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>FSPro</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Improved the FSPro weather section by ensuring the time zone and time zone offset are saved.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Environment Setup</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed an issue related to shape upload failure messages being too long and triggering other errors.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Configured ArcGIS software in OAT and PRD environments to allow functionality testing.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Firefighter Safety</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Firefighter Safety Tab was added to the stepper, however the content entered in this section is NOT yet a required element for the Decision and therefore the content will NOT appear in the Decision pdf.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>IRWIN Writing</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>The IRWIN environment connections have been updated in lower environments; WFDSS EDU is connected to IRWIN Operational Acceptance Testing (OAT).</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Landscape Rules</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Updated the Landscape Edit rules to allow edits with two decimal places in the modifier value.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Legacy Data</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>The search criteria for legacy Incidents (from WFDSS Classic) in the Reports tab are independent of each other.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The search criteria for legacy incidents (from WFDSS Classic) on the Reports tab correspond to the Incidents in the legacy data repository. For example, Eastern and Western Great Basin are search options for Geographic Area because the legacy dataset contains incidents from those Geographic Areas even though they are no longer a valid Geographic Areas.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Map Layers</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Updated the URLs for data layer Protection Unit.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the URLs for data layers Alaska SDI and PCL 2025.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the URLs for Mines data layer.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>PDF Generator</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>The incident unique identification number displays on the cover page of draft and published decision PDFs.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>UI Basics</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Updated the text that appears on the Organization &amp; Complexity tab regarding the need for Relative Risk to be marked Ready for Publication prior to completing Organization &amp; Complexity sections.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Incidents on a user's My Home reflect current incident data for all fields except Strategic Decision Date, Assessment Due Date, IRWIN Estimated Cost to Date, and Incident Status (contained, controlled, out).</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>When an integrated system is unavailable, an error message displaying the name of the integrated system displays to users.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>WFDSS Initiated Incidents</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Editor Role and above can create incidents in EDU for training and testing purposes using the Create Incident Icon (WFDSS Symbol) on the Incident Tab. Created incidents must have a discovery date within the last 6 months, include a valid Unit ID, not be duplicative of a current unique fire ID already in EDU, and adhere to standard naming convention character limitations.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS v1.0.5 Release Notes (09/11/2025)</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <h2>Fixes</h2>

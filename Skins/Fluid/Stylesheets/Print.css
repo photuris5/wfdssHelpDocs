@@ -12,6 +12,13 @@
 		box-shadow: none;
 	}
 
+	/* stops tooltips from hovering in the preview when entering print mode */
+
+	.tooltip
+	{
+		visibility: hidden;
+	}
+
 	*
 	{
 		overflow: visible !important;
@@ -51,6 +58,11 @@
 		box-shadow: none;
 	}
 
+	.defaultSkin .tooltip
+	{
+		visibility: hidden;
+	}
+
 	.defaultSkin *
 	{
 		overflow: visible !important;
@@ -77,6 +89,11 @@
 	}
 
 	._Skins_Side_Navigation .body-container
+	{
+		
+	}
+
+	._Skins_Side_Navigation .featured-snippets-container
 	{
 		
 	}
@@ -489,11 +506,6 @@
 	}
 
 	._Skins_Side_Navigation .central-separator
-	{
-		
-	}
-
-	._Skins_Side_Navigation .featured-snippets-container
 	{
 		
 	}
@@ -1517,6 +1529,11 @@
 		
 	}
 
+	._Skins_CSH_Skin .featured-snippets-container
+	{
+		
+	}
+
 	._Skins_CSH_Skin .title-bar-layout .central-account-wrapper
 	{
 		
@@ -1565,11 +1582,6 @@
 	}
 
 	._Skins_CSH_Skin .central-separator
-	{
-		
-	}
-
-	._Skins_CSH_Skin .featured-snippets-container
 	{
 		
 	}

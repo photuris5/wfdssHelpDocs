@@ -1511,6 +1511,11 @@ html.pulseTopic.defaultSkin .main-section .row.outer-row
 	max-height: 100vh;
 }
 
+._Skins_Side_Navigation .featured-snippets-container
+{
+	
+}
+
 ._Skins_Side_Navigation .title-bar-layout .central-account-wrapper
 {
 	order: 4;
@@ -1597,11 +1602,6 @@ html.pulseTopic.defaultSkin .main-section .row.outer-row
 	height: 1px;
 	color: #D5D8DA;
 	background-color: #D5D8DA;
-}
-
-._Skins_Side_Navigation .featured-snippets-container
-{
-	
 }
 
 ._Skins_Side_Navigation nav.title-bar
@@ -3270,6 +3270,11 @@ html.pulseTopic.defaultSkin .main-section .row.outer-row
 	max-height: none;
 }
 
+._Skins_CSH_Skin .featured-snippets-container
+{
+	
+}
+
 ._Skins_CSH_Skin .title-bar-layout .central-account-wrapper
 {
 	display: none;
@@ -3357,11 +3362,6 @@ html.pulseTopic.defaultSkin .main-section .row.outer-row
 	height: 1px;
 	color: #D5D8DA;
 	background-color: #D5D8DA;
-}
-
-._Skins_CSH_Skin .featured-snippets-container
-{
-	
 }
 
 ._Skins_CSH_Skin nav.title-bar
