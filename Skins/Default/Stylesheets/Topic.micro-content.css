@@ -430,6 +430,33 @@
 	opacity: 0;
 }
 
+.micro-response-187479316 .a
+{
+	color: #1f2a35;
+}
+
+.micro-response-187479316 .a:link
+{
+	color: #1f2a35;
+	text-decoration: underline;
+}
+
+.micro-response-187479316 .a:visited
+{
+	color: #1f2a35;
+	text-decoration: underline;
+}
+
+.micro-response-187479316 .a:active
+{
+	outline: thin dotted invert;
+}
+
+.micro-response-187479316 .a:focus
+{
+	outline: thin dotted invert;
+}
+
 .micro-response-187479316 .dropDown
 {
 	border-bottom: 1px solid #d0d3d5;
@@ -490,33 +517,6 @@
 	border-bottom-color: black;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-}
-
-.micro-response-187479316 .a
-{
-	color: #1f2a35;
-}
-
-.micro-response-187479316 .a:link
-{
-	color: #1f2a35;
-	text-decoration: underline;
-}
-
-.micro-response-187479316 .a:visited
-{
-	color: #1f2a35;
-	text-decoration: underline;
-}
-
-.micro-response-187479316 .a:active
-{
-	outline: thin dotted invert;
-}
-
-.micro-response-187479316 .a:focus
-{
-	outline: thin dotted invert;
 }
 
 .micro-response-187479316 .MCWebHelpFramesetLink a
