@@ -130,6 +130,29 @@
                                     </div>
                                     <div role="main" id="mc-main-content">
                                         <h1>Releases</h1>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS v1.3.0 Release Notes(02/18/2026)</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <h2>Fixes</h2>
+                                                <h3>Core Application (Post Launch)</h3>
+                                                <p>•	Updated the detailed view of the My Active Incidents and My Incident Watchlist to include the Decision Status and the IRWIN Estimated Cost to Date.</p>
+                                                <h3>IRWIN Miscellaneous</h3>
+                                                <p>•	The ADS status and Last Modified By System attributes display in the RAW JSON on the support tab for an incident.</p>
+                                                <h3>IRWIN Synchronization (Reading)</h3>
+                                                <p>•	Updated code that writes to the Incident History to eliminate redundant entries with regards to synchronizing the WFDSS incident from IRWIN.</p>
+                                                <p>•	Added code to display the latest Incident Complexity Level recorded in IRWIN and the system that reported it in the PMS 236 Part C &amp; E section of the Organization &amp; Complexity Tab.</p>
+                                                <p>•	Updated Strategic Course of Action tab to include the latest Strategy Values and Source from IRWIN.</p>
+                                                <p>•	The last reported estimated cost to date reported from IRWIN now display in the Cost tab of an initiated decision.</p>
+                                                <h3>IRWIN Writing</h3>
+                                                <p>•	Updated the EDU and OAT environments so WFDSS information is written to IRWIN. Also changed the OAT environment to sync with the IRWIN OAT/Next environment.</p>
+                                                <p>•	Decision status in IRWIN updates to pending when a user selects Ready for Approval button of a decision.</p>
+                                                <p>•	WFDSS will send null values to IRWIN if user checks 'Do not Report Strategy/Defer to 209 for Strategy' and select Save.</p>
+                                                <p>•	Incident Complexity Level is available as an attribute to push all 5 values on the support dashboard to IRWIN.</p>
+                                                <h3>Map Basic</h3>
+                                                <p>•	Added Foreign Incidents (those with an Incident Type Category = 'GF') to the IRWIN Incident Points Layer on the map and the ability to search for them in right hand panel of the Incidents Tab.</p>
+                                                <h3>Technical Debt Cleanup</h3>
+                                                <p>•	Resolved assorted issues identified during the Angular update process, improving stability, compatibility, and overall performance.</p>
+                                            </div>
+                                        </div>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS v1.2.0 Release Notes (12/08/2025)</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <h2>Fixes</h2>
