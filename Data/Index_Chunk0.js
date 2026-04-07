@@ -1,1 +1,1 @@
-define({'Lorem':{l:[{u:'/Content/sf_Topics/sf_feature.htm#kanchor1',t:'Feature 1'}]}});
+define({});
