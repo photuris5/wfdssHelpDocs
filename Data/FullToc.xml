@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" DescendantCount="108">
+    <TocEntry Title="WFDSS Home" Link="/Content/Home.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="0" />
+    <TocEntry Title="What's New" ComputedFirstTopic="false" DescendantCount="2">
+        <TocEntry Title="What's New" Link="/Content/00-General/Whats-New.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Releases" Link="/Content/00-General/Releases.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="WFDSS User Guide" ComputedFirstTopic="false" DescendantCount="95">
+        <TocEntry Title="Getting Started" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="10">
+            <TocEntry Title="System Access" Link="/Content/00-General/System-Access.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="System Preferences" Link="/Content/30-User_Management/System-Preferences.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Finding Your Geographic Area Editor" Link="/Content/00-General/Find-GAE.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Incident Privileges" Link="/Content/00-General/Incident-Privileges.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Connected Systems" Link="/Content/00-General/Connected-Systems.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="User Roles" Link="/Content/30-User_Management/User-Roles.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="ISAP Cost Estimation Spread Sheet" Link="/Content/00-General/ISAP-Cost-Estimation-Spread-Sheet.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Master Contact List" Link="/Content/00-General/Master-Contact-List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Frequently Asked Questions" Link="/Content/00-General/FAQs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="My Profile" ComputedFirstTopic="false" DescendantCount="1">
+                <TocEntry Title="System Preferences" Link="/Content/30-User_Management/System-Preferences.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="Incidents" ComputedFirstTopic="false" DescendantCount="71">
+            <TocEntry Title="Dashboard Basics" ComputedFirstTopic="false" DescendantCount="8">
+                <TocEntry Title="Searching for an Incident" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" Link="/Content/20-Incidents/Searching-for-an-Incident.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Watching Incidents" Link="/Content/20-Incidents/Watching-Incidents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Starting a Decision" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" Link="/Content/20-Incidents/Starting-a-Decision.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Incident Dashboard" Link="/Content/20-Incidents/Incident-Dashboard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Decision-Stepper" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" Link="/Content/20-Incidents/Decision-Stepper.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Incident Search Results" Link="/Content/20-Incidents/Incident-List.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Incident Symbology" Link="/Content/20-Incidents/Incident-Symbology.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Layer List" Link="/Content/20-Incidents/Layer-List.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Incident Information" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Incident Details" Link="/Content/20-Incidents/21-Incident-Information/Incident-Details.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Collaborators" Link="/Content/20-Incidents/21-Incident-Information/Collaborators.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Fire Area" Link="/Content/20-Incidents/21-Incident-Information/Fire-Area.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Analysis" ComputedFirstTopic="false" DescendantCount="10">
+                <TocEntry Title="New Analysis" ComputedFirstTopic="false" DescendantCount="1">
+                    <TocEntry Title="New Analysis" Link="/Content/20-Incidents/22-Analysis/New-Analysis.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Layer List" Link="/Content/20-Incidents/Layer-List.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Analysis Notes" Link="/Content/20-Incidents/22-Analysis/Analysis-Notes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="FSPro (Fire Spread Probability)" Link="/Content/20-Incidents/22-Analysis/FSPro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="FSPro Overview" Link="/Content/20-Incidents/22-Analysis/FSPro-Overview and Tutorial.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="MTT (Short Term)" Link="/Content/20-Incidents/22-Analysis/MTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="FARSITE (Near Term)" Link="/Content/20-Incidents/22-Analysis/FARSITE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="FlamMap 6 (Basic)" Link="/Content/20-Incidents/22-Analysis/FlamMap.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Analysis Status" Link="/Content/20-Incidents/22-Analysis/Analysis-Status.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Analysis Actions" Link="/Content/20-Incidents/22-Analysis/Analysis-Actions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Relative Risk" ComputedFirstTopic="false" DescendantCount="14">
+                <TocEntry Title="Relative Risk" Link="/Content/20-Incidents/23-Relative Risk/Relative-Risk.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Time of Season" Link="/Content/20-Incidents/23-Relative Risk/Time-of-Season.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Seasonal Severity" Link="/Content/20-Incidents/23-Relative Risk/Seasonal-Severity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Barriers to Fire Spread" Link="/Content/20-Incidents/23-Relative Risk/Barriers-to-Fire-Spread.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Fuel Conditions" Link="/Content/20-Incidents/23-Relative Risk/Fuel-Conditions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Fire Behavior" Link="/Content/20-Incidents/23-Relative Risk/Fire-Behavior.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Potential Fire Growth" Link="/Content/20-Incidents/23-Relative Risk/Potential-Fire-Growth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Infrastructure | Natural |Cultural Concerns" Link="/Content/20-Incidents/23-Relative Risk/Infrastructure-Natural-Cultural-Concerns.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Proximity and Threat to Fire Values" Link="/Content/20-Incidents/23-Relative Risk/Proximity-and-Threat-to-Fire-Values.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Social Economic Concerns" Link="/Content/20-Incidents/23-Relative Risk/Social-Economic-Concerns.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Relative Risk Rating" Link="/Content/20-Incidents/23-Relative Risk/Relative-Risk-Rating.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Relative Risk Rating Recommendation" Link="/Content/20-Incidents/23-Relative Risk/Relative-Risk-Rating-Recommendation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Ready for Publication Relative Risk" Link="/Content/20-Incidents/23-Relative Risk/Ready-for-Publication-Relative-Risk.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Publishing a Relative Risk" Link="/Content/20-Incidents/23-Relative Risk/Publishing-a-Relative-Risk.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Strategy" ComputedFirstTopic="false" DescendantCount="12">
+                <TocEntry Title="Strategic Assessment" ComputedFirstTopic="false" DescendantCount="9">
+                    <TocEntry Title="Strategic Assessment" Link="/Content/20-Incidents/24-Strategic-Assessment/Strategic-Assessment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Strategic Assessment Category" Link="/Content/20-Incidents/24-Strategic-Assessment/Strategic-Assessment-Category.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Strategic Assessment Critical Value at Risk" Link="/Content/20-Incidents/24-Strategic-Assessment/Strategic-Assessment-Critical-Value-at-Risk.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Including a Strategic Assessment in a Decision" Link="/Content/20-Incidents/24-Strategic-Assessment/Strategic-Assessment-Included-In-Decision.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Creating a New Strategic Assessment" Link="/Content/20-Incidents/24-Strategic-Assessment/Creating-a-New-Strategic-Assessment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Deleting a Strategic Assessment" Link="/Content/20-Incidents/24-Strategic-Assessment/Deleting-a-Strategic-Assessment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Editing a Strategic Assessment" Link="/Content/20-Incidents/24-Strategic-Assessment/Editing-a-Strategic-Assessment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Highlighting a Strategic Assessment" Link="/Content/20-Incidents/24-Strategic-Assessment/Highlighting-a-Strategic-Assessment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Reordering a Strategic Assessment" Link="/Content/20-Incidents/24-Strategic-Assessment/Reordering-a-Strategic-Assessment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Strategic Course of Action" ComputedFirstTopic="false" DescendantCount="1">
+                    <TocEntry Title="Strategic Course of Action" Link="/Content/20-Incidents/25-Strategic-Course-of-Action/Strategic-Course-of-Action.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Cost" ComputedFirstTopic="false" DescendantCount="2">
+                    <TocEntry Title="Cost" Link="/Content/20-Incidents/24-Strategic-Assessment/Cost.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Estimated Final Cost" Link="/Content/20-Incidents/24-Strategic-Assessment/Estimated-Final-Cost.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+            </TocEntry>
+            <TocEntry Title="Organization and Complexity" ComputedFirstTopic="false" DescendantCount="22">
+                <TocEntry Title="Organizational Assessment" ComputedFirstTopic="false" DescendantCount="11">
+                    <TocEntry Title="Organization Assessment (OA)" Link="/Content/20-Incidents/26-Organizational Assessment/Organization-Assessment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Relative Risk Rating in Organizational Assessment" Link="/Content/20-Incidents/26-Organizational Assessment/Relative-Risk-Rating-in-Organizational-Assessment.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Potential Fire Duration" Link="/Content/20-Incidents/26-Organizational Assessment/Potential-Fire-Duration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Incident Strategies (Course of Action)" Link="/Content/20-Incidents/26-Organizational Assessment/Incident-Strategies.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Functional Concerns" Link="/Content/20-Incidents/26-Organizational Assessment/Functional-Concerns.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Objective Concerns" Link="/Content/20-Incidents/26-Organizational Assessment/Objective-Concerns.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="External Influences" Link="/Content/20-Incidents/26-Organizational Assessment/External-Influences.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Ownership Concerns" Link="/Content/20-Incidents/26-Organizational Assessment/Ownership-Concerns.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Organizational Assessment Results" Link="/Content/20-Incidents/26-Organizational Assessment/Organizational-Assessment-Results.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Unit Recommended Organization" Link="/Content/20-Incidents/26-Organizational Assessment/Unit-Recommended-Organization.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Ready for Publication Organization Assessment" Link="/Content/20-Incidents/26-Organizational Assessment/Ready-for-Publication-Organization-Assessment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Incident Complexity" ComputedFirstTopic="false" DescendantCount="6">
+                    <TocEntry Title="Type 1 Incident Complexity" Link="/Content/50-MicroContent/55-Incident-Complexity/Type-1-Incident-Complexity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Type 2 Incident Complexity" Link="/Content/50-MicroContent/55-Incident-Complexity/Type-2-Incident-Complexity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Type 3 Incident Complexity" Link="/Content/50-MicroContent/55-Incident-Complexity/Type-3-Incident-Complexity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Type 4 Incident Complexity" Link="/Content/50-MicroContent/55-Incident-Complexity/Type-4-Incident-Complexity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Type 5 Incident Complexity" Link="/Content/50-MicroContent/55-Incident-Complexity/Type-5-Incident-Complexity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Complex Incident Complexity Indicators" Link="/Content/50-MicroContent/55-Incident-Complexity/Complex-Incident-Complexity-Indicators.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Functional Complexity" ComputedFirstTopic="false" DescendantCount="5">
+                    <TocEntry Title="Functional Complexity Command" Link="/Content/50-MicroContent/54-Functional-Complexity/Command.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" StartSection="false" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Functional Complexity Finance" Link="/Content/50-MicroContent/54-Functional-Complexity/Finance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Functional Complexity Logistics" Link="/Content/50-MicroContent/54-Functional-Complexity/Logistics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Functional Complexity Operations/Air Operations" Link="/Content/50-MicroContent/54-Functional-Complexity/Operations-Air-Operations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Functional Complexity Planning" Link="/Content/50-MicroContent/54-Functional-Complexity/Planning.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+            </TocEntry>
+            <TocEntry Title="Decision Approval/Assessment" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="Decision Rational" ComputedFirstTopic="false" DescendantCount="1">
+                    <TocEntry Title="Decision Rational" Link="/Content/20-Incidents/27-Decision-Approval-Assessment/Decision-Rationale.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Decision Approval and Assessment" ComputedFirstTopic="false" DescendantCount="1">
+                    <TocEntry Title="Decision Approval and Assessment" Link="/Content/20-Incidents/27-Decision-Approval-Assessment/Decision-Approval-Assessment.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+            </TocEntry>
+            <TocEntry Title="Tactics (coming soon)" ComputedFirstTopic="false" DescendantCount="0">
+                <TocEntry Title="New Entry" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="Reports" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Generating Reports" Link="/Content/40-Reports/Generating Reports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Legacy Incident Data" Link="/Content/40-Reports/Legacy-Incident-Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Legacy Analysis Data" Link="/Content/40-Reports/Legacy-Analysis-Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Map and Data" ComputedFirstTopic="false" DescendantCount="7">
+            <TocEntry Title="Basemap Layers" Link="/Content/20-Incidents/Basemap-Layers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Data Services" Link="/Content/20-Incidents/Data-Services.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Map" Link="/Content/00-General/Map.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Map Widgets" Link="/Content/20-Incidents/Map-Widgets.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Layer List" Link="/Content/20-Incidents/Layer-List.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Right Hand Panel" Link="/Content/00-General/Right-Hand-Panel.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="WFDSS-Data" Link="/Content/00-General/WFDSS-Data.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="My Home" ComputedFirstTopic="false" DescendantCount="1">
+            <TocEntry Title="My Home" Link="/Content/10-MyHome/My-Home.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Downloads" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="ISAP Cost Estimation Spread Sheet" Link="/Content/00-General/ISAP-Cost-Estimation-Spread-Sheet.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Master Contact List" Link="/Content/00-General/Master-Contact-List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="WFDSSNG Offline Decision Form" Link="/Content/00-General/WFDSSNG-Offline-Decision-Form.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Known Issues" Link="/Content/00-General/Known-Issues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+    <TocEntry Title="User Support" Link="/Content/00-General/User-Support.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+    <TocEntry Title="Frequently Asked Questions" Link="/Content/00-General/FAQs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+    <TocEntry Title="Forms" ComputedFirstTopic="false" DescendantCount="1">
+        <TocEntry Title="WFDSSNG Offline Decision Form" Link="/Content/00-General/WFDSSNG-Offline-Decision-Form.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="WFDSS Development" ComputedFirstTopic="false" DescendantCount="2">
+        <TocEntry Title="User Feedback" Link="/Content/00-General/Development/User-Feedback.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Releases" Link="/Content/00-General/Releases.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="GAE Resources" ComputedFirstTopic="false" DescendantCount="2">
+        <TocEntry Title="What is a Geographic Area Editor" Link="/Content/60-GAE_Resources/What is a Geographic Area Editor.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Managing Documentation for Incidents" Link="/Content/60-GAE_Resources/Managing-Documentation-For-Incidents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Spatial Fire Planning" ComputedFirstTopic="false" DescendantCount="2">
+        <TocEntry Title="Spatial Fire Planning User Guide" Link="/Content/Resources/PDFs/Spatial Fire Planning User Guide.pdf" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Spatial Fire Planning Service" Link="/Content/70-SFPS/Spatial-Fire-Planning-Service.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="What is Spatial Fire Planning?" Link="/Content/00-General/What-is-Spatial-Fire-Planning.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+</CatapultToc>
