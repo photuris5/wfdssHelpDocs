@@ -129,7 +129,7 @@
             </TocEntry>
         </TocEntry>
         <TocEntry Title="Reports" ComputedFirstTopic="false" DescendantCount="3">
-            <TocEntry Title="Generating Reports" Link="/Content/40-Reports/Generating Reports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Generating Reports prior to 3/26/2025" Link="/Content/40-Reports/Generating Reports Prior.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
             <TocEntry Title="Legacy Incident Data" Link="/Content/40-Reports/Legacy-Incident-Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
             <TocEntry Title="Legacy Analysis Data" Link="/Content/40-Reports/Legacy-Analysis-Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
         </TocEntry>

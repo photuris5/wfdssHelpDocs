@@ -130,7 +130,7 @@ xmlFullTocData += '                <TocEntry Title=\"New Entry\" ComputedFirstTo
 xmlFullTocData += '            </TocEntry>';
 xmlFullTocData += '        </TocEntry>';
 xmlFullTocData += '        <TocEntry Title=\"Reports\" ComputedFirstTopic=\"false\" DescendantCount=\"3\">';
-xmlFullTocData += '            <TocEntry Title=\"Generating Reports\" Link=\"/Content/40-Reports/Generating Reports.htm\" xmlns:MadCap=\"http://www.madcapsoftware.com/Schemas/MadCap.xsd\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '            <TocEntry Title=\"Generating Reports prior to 3/26/2025\" Link=\"/Content/40-Reports/Generating Reports Prior.htm\" xmlns:MadCap=\"http://www.madcapsoftware.com/Schemas/MadCap.xsd\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
 xmlFullTocData += '            <TocEntry Title=\"Legacy Incident Data\" Link=\"/Content/40-Reports/Legacy-Incident-Data.htm\" xmlns:MadCap=\"http://www.madcapsoftware.com/Schemas/MadCap.xsd\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
 xmlFullTocData += '            <TocEntry Title=\"Legacy Analysis Data\" Link=\"/Content/40-Reports/Legacy-Analysis-Data.htm\" xmlns:MadCap=\"http://www.madcapsoftware.com/Schemas/MadCap.xsd\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
 xmlFullTocData += '        </TocEntry>';
