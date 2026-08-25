@@ -130,6 +130,185 @@
                                     </div>
                                     <div role="main" id="mc-main-content">
                                         <h1>Releases</h1>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS V1.7.0 Release Notes (08/26/2026)</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <h2>Fixes</h2>
+                                                <h3>Analysis General</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added logic to save any unsaved landscape edit rules when the 'Create Landscape' button is pressed.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the link on the Analysis Landscape tab shown when the user selects Seasonal Fuels to facilitate verification of availability of Seasonal Fuels (MoD-FIS) fuel model data.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Cleanup</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Removed the empty Weather accordion from the Spatial Inventory tab.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Firefighter Safety</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added 'Firefighter Safety' to the list of required decision elements.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added 'Weather and Smoke' to the list of required decision elements.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added 'Weather and Smoke' narratives under the Firefighter Safety stepper.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added 'Ready for Publication' toggle to Firefighter Safety tab.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added 'Ready for Publication' toggle to the Weather and Smoke tab.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>FMB Strategy Change</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added 'Direct Extinguishment' and 'Indirect Confinement' suppression strategies to the Strategic Summary of the COA tab, the Incident Course of Action Legend, and the Map.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the layout of the Reported Strategy accordion of the Strategic Course of Action tab to include the values Direct Extinguishment and Indirect Confinement and included help text to differentiate these values from the existing Strategy values.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added 'Direct Extinguishment' and 'Indirect Confinement' to the list of available Suppression Strategies when creating a Course of Action.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added 'Direct Extinguishment' and 'Indirect Confinement' as rows to the suppression strategies to the Strategic Summary table in in the decision PDF.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the IRWIN Support tab to include the attributes FireStrategyDirExtPercent and FireStrategyIndirConfPercent in the right hand panel and json pop-ups.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated High Charts within the Strategic Summary to include the new suppression strategies(Direct Extinguishment and Indirect Confinement).</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>IRWIN Synchronization</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Updated the IRWIN Support tab so the 'IRWIN JSON' button would retrieve a fresh copy of the data from IRWIN every time it is pressed.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the decision status of the WFDSS Initiated Decisions layer to show 'Published Decision' when a decision is published on an incident.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Legacy Data</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Updated the legacy data in EDU available from the Reports Tab to have the complete data that was available in WFDSS Prod.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Map Layers</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Updated the service URL for Energy Release Component (ERC) and Burning Index (BI).</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for Severe Fire Weather Potential (SFWP).</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the incident Course of Action popup window by removing Strategy_Name field.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL and the name for Fuel Treatment Polygons.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for Bureau of Reclamation (BOR) Administration Areas.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for Alaska Fire Management Options.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for Alaska Special Management Areas.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the URLs for data layers Alaska SDI and PCL.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for Sage Grouse Habitat.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for Herd Management Areas.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Removed Bureau of Land Management (BLM) Management Requirements from the Resource Management Considerations layer list.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for National Scenic Byways.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the query for the Fire Perimeter-Internal View (NFS) layer to minimize initial system generated triangles from outside sources.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for The Nature Conservancy (TNC) Lands.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for WFDSS Legacy Incident Points.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for Mines from the Infrastructure - Utilities and Transportation layer list.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for Campsites (BLM).</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Updating GIS Attributes</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added logic to update the 'Assessment Due Date' and 'Is Strategy Met' attributes in the WFDSS Initiated Decisions and Published Planning Area layers when a decision is published.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Strategic Assessment</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added ability to copy a Strategic Assessment.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Strategic Course of Action</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Renamed labels on Incident Course of Action pop-up.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added ability to copy a Strategic Course of Action.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Renamed the subtabs of the Strategy stepper and fixed alignment of tabs so all three tabs display without the need to scroll.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Resolved an issue where special characters in the User-Defined Strategic Course of Action shape name prevented the map layer from refreshing.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Removed the 'Do not Report Strategy / Defer to 209 for Strategy' checkbox below the Reported Strategy accordion.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added help text below each of the narratives of the Course of Action tab in the Strategy stepper.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>PDF Generator</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Modified layout of the Strategic Assessments in the decision PDF to include the Unit Fire Planning language if available.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added 'Firefighter Safety' narrative to the decision PDF.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added 'Weather and Smoke' narratives to the decision PDF.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Spatial Inventory</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed bug where the Spatial Inventory for a Landscape Extent would not generate if the shape was not displayed on the map.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS V1.6.0 Release Notes (07/16/2026)</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <h2>Fixes</h2>
