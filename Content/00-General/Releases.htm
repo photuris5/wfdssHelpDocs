@@ -130,6 +130,200 @@
                                     </div>
                                     <div role="main" id="mc-main-content">
                                         <h1>Releases</h1>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS V1.8.0 Release Notes(10/08/2026)</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <h2>Fixes</h2>
+                                                <h3>508 Compliance &amp; UI Standards</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added a confirmation pop-up when deleting an analysis note.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Analysis Actions</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed issue where analysis notes on completed runs were not visible to incident collaborators.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed bug that existing notes for an analysis would not appear unless user interacted with the notes “Type” dropdown or created a note.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Analysis General</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed sorting by Created Date/Time on the Analysis Notes.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed issue where the ERC Climatology Graph would display the forecasted ERC values in the wrong order.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added logic to return to the Existing Analyses tab after closing an Analysis you opened from that page.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Analysis Status</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added the number of fires completed for a FSPro to the Run/Results tab of the analysis.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Analysis Validation</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Removed validation logic tied to expired analysis and “Include in Decision” requirements when marking an Analysis Summary Ready for Approval.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the analysis weather validation logic and error message to ensure forecast days are less than FSPro days.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Cleanup</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Fixed issue where buttons would shift position when they received focus and accordions would shift position when expanded or collapsed.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Implemented automatic formatting to convert Unit ID to all caps in Unique Fire ID and Point of Origin for incidents created in WFDSS EDU and lower environments.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Reformatted the Weather Tab of the FSPro to improve usability and readability.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Began improvements of UI layout by standardizing button text and position, removing extra padding, and decreasing font size in various places in the application.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Improved layout of the content in Assessment and COA subtabs under the Strategy tab.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added a Supporting Information accordion to the top of the PMS 236 tab of the Relative Risk stepper which contains the charts that had been below the Potential Fire Growth Narrative on the same tab.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Completed minor visual cleanup on the Decision Approval/Assessment tab to improve readability, layout alignment, and user experience.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added units to the resolution of the landscape details. Fixed spacing on the buttons of the Edit Landscape accordion when the panel was expanded.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed misspelling of 'Suppression' on the high charts displayed on the Strategic Course of Action tab.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Completed a series of UI cleanup improvements across multiple WFDSS tabs, including the Existing Analyses, Analysis Run Results, FSPro, Weather (Climatology, ERC Classes, Forecasts), Analysis Notes, and Decision Approval &amp; Assessment tabs.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Completed general UI cleanup across the User Profile pages, including updates to the Profile, System Preferences, and User Search tabs.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Decision Publishing</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Resolved an issue where the "Ready for Publication" toggle buttons on the Relative Risk, Firefighter Safety, and Weather and Smoke panels not disabled while a decision was pending final approval.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added validation on the Cost Tab to ensure the Estimated Final Cost entered by the user is greater or equal to the Estimated Cost to Date recorded in IRWIN.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Error Handling</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Resolved an issue in the Landfire Product Service (LFPS) process by failing jobs that complete without providing an output file location and displaying an error message indicating that LFPS returned no output and the job has been failed, preventing the UI job indicator from running continuously.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>FMB Strategy Change</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>The IRWIN Reported Strategy Column of the Strategic Summary has been removed from the Decision PDF since the WFDSS values will always be pushed to IRWIN on Decision Publish.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Enabled integrating the new FireStrategyDirExtPercent and FireStrategyIndirConfPercent attributes to IRWIN through the Support tab.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>When a WFDSS decision is published, WFDSS integrates the reported strategy values into IRWIN.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added the Initial Fire Strategy recorded in IRWIN to the COA tab.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the reported strategy accordion on the Course of Action tab to show the last reported values from IRWIN.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the Strategy column header on "My Watch List" and "Active Incidents" to “Strategy Percentages” and added a hover tooltip displaying: “Strategy (Direct Extinguishment, Indirect Confinement, Full, P/Z, Confine, Monitor)”.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>FSPro</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added the Barrier Name used in an analysis to the Run/Results tab of the analysis.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Legacy Data</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Updated the legacy data in EDU accessible from the Reports Tab to ensure it includes the complete data that was available in WFDSS Prod.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Shortened displayed acreage value to 2 decimal places on Reports page and exported csv for WFDSS incidents prior to 03/26/2025.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Fixed labels on the Incident Size and Cost filters on the reports tab to accurately reflect the filtering.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Map Basics</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Added logic to automatically strip trailing blanks entered on the drawing and shape upload dialogs.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Map Layers</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Updated the Smoke data layer URLs.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Added Minimum Time Travel (MTT) and FARSITE output results to the layer list.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Modified the label on the bottom legend entry of the Average Flame Length to '&lt; 1 foot' from '0 feet'.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the map interface to display both the description and label within the LANDFIRE reference data pop-up window upon selection.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the service URL for the Communication Sites layer.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated Monitoring Trends in Burn Severity (MTBS) for Conus, AK, and HI, and added an "All Years" layer for all three regions which now includes PR.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated map functionality to load with only the two most recent years of Monitoring Trends in Burn Severity (MTBS) layer enabled by default.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Updated the WFDSS Initiated Decision layer symbols on the map to reflect the appropriate WFDSS initiated decision status.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Strategic Course of Action</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Redesigned the Strategic Course of Action table on the COA tab to display the four required narratives and changed the CSV of the same table to include all 6 narratives entered on a Strategic Course of Action.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Supporting Information</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Resolved an issue in the Energy Release Component (ERC) climatology graph where selecting a weather range that crosses the year-end boundary (December through February) caused the months to display out of order, misaligned the forecast days, and incorrectly plotted current ERC values.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>User Profile &amp; Management</h3>
+                                                <ul>
+                                                    <li>
+                                                        <p>Resolved an issue in the User Search where using the Copy Emails function and pasting the results would generate null text values for users who did not have a secondary email address listed.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>WFDSS Initiated Incidents (Non-IRWIN Cases)</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Ensure users can continue to access and work on WFDSS incidents even when the incident’s IRWIN GUID is no longer valid.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />WFDSS V1.7.0 Release Notes (08/26/2026)</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <h2>Fixes</h2>
